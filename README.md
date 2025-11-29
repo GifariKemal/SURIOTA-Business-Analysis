@@ -1,6 +1,6 @@
 # SRT-MGATE-1210 Business Analysis
 
-**Competitive Analysis, Pricing Strategy, and COGS Documentation for SRT-MGATE-1210 Industrial IoT Gateway**
+**Competitive Analysis, Pricing Strategy, and Sales Guide for SRT-MGATE-1210 Industrial IoT Gateway**
 
 ---
 
@@ -10,66 +10,65 @@ This repository contains comprehensive business analysis documentation for the *
 
 ### Product Variants
 
-| Model | Description | MSRP (IDR) | MSRP (USD) |
-|-------|-------------|------------|------------|
-| **SRT-MGATE-1210** | Standard Version - 2xRS485, ETH, WiFi, BLE | Rp 5.000.000 | $312 |
-| **SRT-MGATE-1210-POE** | PoE Version - 2xRS485, ETH+PoE, WiFi, BLE | Rp 6.000.000 | $375 |
+| Model | Description | MSRP (IDR) | MSRP (USD) | Margin |
+|-------|-------------|------------|------------|--------|
+| **SRT-MGATE-1210** | Standard Version - 2xRS485, ETH, WiFi, BLE | Rp 2,800,000 | ~$175 | 48% |
+| **SRT-MGATE-1210-POE** | PoE Version - 2xRS485, ETH+PoE, WiFi, BLE | Rp 3,500,000 | ~$219 | 53% |
+
+---
+
+## Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **Dual RS-485** | 2 ports with ESD protection |
+| **WiFi** | 2.4GHz with auto-failover |
+| **BLE 5.0** | Mobile configuration via smartphone |
+| **RTC** | DS3231 with battery backup |
+| **LED Indicators** | 9 LEDs for complete monitoring |
+| **MQTT Output** | JSON format to any cloud platform |
+| **Industrial Grade** | -40C to +75C operating temp |
+
+---
+
+## Unique Selling Proposition (USP)
+
+**SURIOTA is the ONLY Modbus-to-MQTT gateway in Indonesia with:**
+- WiFi Built-in with Auto Failover
+- BLE Mobile Configuration (setup in 5 minutes)
+- RTC with Battery Backup
+- 9 LED Status Indicators
+- Local Indonesia Support
+
+---
+
+## Competitor Comparison
+
+| Brand | Model | Price (Tokopedia) | vs SURIOTA |
+|-------|-------|-------------------|------------|
+| USR-IOT | N720-ETH | Rp 3,500,000 | SURIOTA **20% cheaper** |
+| BLIIoT | BL100 | Rp 3,373,000 | SURIOTA **17% cheaper** |
+| ICP DAS | tGW-725 | Rp 3,450,000 | SURIOTA **19% cheaper** |
+| Moxa | AIG-101-T | Rp 8,956,000 | SURIOTA **69% cheaper** |
 
 ---
 
 ## Documentation Contents
 
-### 1. Competitive Analysis
-- 15+ competitor comparison (Moxa, ICP DAS, Advantech, Red Lion, Siemens, etc.)
-- Feature comparison matrix
-- Price positioning analysis
+The main analysis document (`SRT-MGATE-1210_BUSINESS_ANALYSIS.md`) includes:
 
-### 2. Unique Selling Proposition (USP)
-- BLE Mobile Configuration (Setup via Smartphone)
-- PoE + DC Redundant Power
-- Dual RS-485 + WiFi + Ethernet (Triple Connectivity)
-- Auto Network Failover (Ethernet ↔ WiFi)
-- Local Indonesia Support
-
-### 3. Cost of Goods Sold (COGS) Analysis
-Detailed breakdown for 200 pcs production:
-
-| Version | BOM | Manufacturing | Total COGS/Unit |
-|---------|-----|---------------|-----------------|
-| **Standard** | $35.20 (Rp 563,200) | $9.80 (Rp 156,800) | **$56.25 (Rp 900,000)** |
-| **PoE** | $43.85 (Rp 701,600) | $11.00 (Rp 176,000) | **$68.56 (Rp 1,096,960)** |
-
-### 4. Pricing Strategy
-- Gross Margin: ~82%
-- Break-even: 60 units
-- ROI: 299%
-- Payback Period: 3-4 months
-
-### 5. Official Pricelist
-- Volume discounts (5% - 25%)
-- Distributor/OEM pricing tiers
-- Accessories and service packages
-
----
-
-## Key Financial Summary
-
-```
-┌────────────────────────────────────────────────────────────────┐
-│                    FINANCIAL SUMMARY                            │
-├────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  Production Volume        : 200 pcs (120 Standard + 80 PoE)    │
-│  Total Investment         : Rp 270,760,000 (~$16,900)          │
-│  Total Revenue (MSRP)     : Rp 1,080,000,000 (~$67,500)        │
-│  Net Profit               : Rp 809,240,000 (~$50,600)          │
-│                                                                 │
-│  Break-even Units         : 60 units                           │
-│  ROI                      : 299%                               │
-│  Payback Period           : 3-4 months                         │
-│                                                                 │
-└────────────────────────────────────────────────────────────────┘
-```
+1. **Executive Summary** - Pricing recommendation & key metrics
+2. **Product Specifications** - Complete technical specs
+3. **COGS Analysis** - Actual production cost breakdown
+4. **Competitor Analysis** - 5 Modbus-to-MQTT gateway competitors
+5. **Feature Comparison Matrix** - Side-by-side comparison
+6. **Pricing Strategy** - Volume discounts & distributor tiers
+7. **USP Breakdown** - Unique selling points explained
+8. **Sales Guide** - 16 customer scenario scripts
+9. **Objection Handling** - Common objections & responses
+10. **Brand Awareness Strategy** - Marketing roadmap
+11. **Financial Projections** - Revenue & profit analysis
+12. **Technical Appendix** - Specifications & glossary
 
 ---
 
@@ -77,7 +76,7 @@ Detailed breakdown for 200 pcs production:
 
 | File | Description |
 |------|-------------|
-| `COMPETITIVE_ANALYSIS_PRICING.md` | Full competitive analysis and pricing strategy document |
+| `SRT-MGATE-1210_BUSINESS_ANALYSIS.md` | Main business analysis document (v5.4) |
 | `README.md` | This file - repository overview |
 | `CLAUDE.md` | AI assistant context file |
 
@@ -85,30 +84,26 @@ Detailed breakdown for 200 pcs production:
 
 ## Exchange Rate
 
-All calculations use: **1 USD = Rp 16,000**
-
----
-
-## Competitor Comparison Summary
-
-| Brand | Model | Price Range | vs SURIOTA |
-|-------|-------|-------------|------------|
-| Moxa | MGate MB3180 | Rp 5.6-6.4M | Same price, less features |
-| Moxa | MGate MB3280 | Rp 8-8.8M | 40% more expensive |
-| ICP DAS | GW-7472 | Rp 3-4M | Cheaper, no WiFi/BLE |
-| Red Lion | DA10D | Rp 14-15M | **65% more expensive** |
-| Advantech | WISE-4012E | Rp 7-10M | 40% more expensive |
+All calculations use: **1 USD = Rp 16,648** (actual) / **Rp 16,000** (rounded)
 
 ---
 
 ## Contact
 
 **PT Surya Inovasi Prioritas (SURIOTA)**
-Industrial IoT Solutions
 
-- Email: sales@suriota.com
-- Website: www.suriota.com
-- Phone: +62 858-3567-2476
+| | |
+|---|---|
+| Website | www.suriota.com |
+| Email | sales@suriota.com |
+| Phone | +62 858-3567-2476 |
+
+---
+
+## Related Repositories
+
+- [GatewaySuriotaPOC](https://github.com/GifariKemal/GatewaySuriotaPOC) - Main firmware source code
+- [GatewaySuriotaOTA](https://github.com/GifariKemal/GatewaySuriotaOTA) - OTA firmware releases
 
 ---
 
@@ -118,4 +113,4 @@ This documentation is proprietary to PT Surya Inovasi Prioritas. All rights rese
 
 ---
 
-*Document Version: 2.1 | Last Updated: November 29, 2025*
+*Document Version: 5.4 | Last Updated: November 29, 2025*
