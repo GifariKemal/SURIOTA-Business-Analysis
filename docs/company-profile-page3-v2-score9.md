@@ -2,7 +2,7 @@
 
 ## Suriota About Us Page - Premium Version
 
-> **Target Score:** 8.6/10 (Projected)
+> **Target Score:** 8.3/10 (Projected)
 > **Version:** 2.0
 > **Last Updated:** December 2024
 > **Purpose:** Compelling, memorable, industry benchmark
@@ -13,9 +13,8 @@
 
 This premium version includes everything from Version 1, plus:
 - ✅ Bold, contrarian opening hook
-- ✅ Market opportunity data
+- ✅ Market opportunity data (validated: $2.7B from Statista)
 - ✅ Dramatic founder story
-- ✅ Ambitious mission with timeline
 - ✅ Client testimonial with ROI
 - ✅ Clear competitive differentiator
 - ✅ Newsworthy achievement claim
@@ -92,7 +91,7 @@ CEO & Founder SURIOTA
 
 "
 In 2023, I left a comfortable career to start Suriota with
-one belief: Indonesia's $2.3 billion industrial IoT market
+one belief: Indonesia's $2.7 billion industrial IoT market
 shouldn't be dominated by foreign solutions.
 
 We started in a small room in Batam. Today, we serve
@@ -100,8 +99,6 @@ companies like Caterpillar and have deployed 55+ projects
 across industrial, energy, and maritime sectors.
 
 Our DNA is CIPTA: Committed, Integrity, Precision, Trust, Adaptive.
-
-Our mission: Digitize 1,000 Indonesian factories by 2030.
 
 We don't just integrate technology.
 We engineer Indonesia's industrial future.
@@ -115,7 +112,7 @@ CEO & Founder SURIOTA
 "
 Di tahun 2023, saya meninggalkan karir yang nyaman untuk
 memulai Suriota dengan satu keyakinan: pasar IoT industri
-Indonesia senilai $2,3 miliar tidak seharusnya didominasi
+Indonesia senilai $2,7 miliar tidak seharusnya didominasi
 oleh solusi asing.
 
 Kami memulai dari ruangan kecil di Batam. Hari ini, kami
@@ -123,8 +120,6 @@ melayani perusahaan seperti Caterpillar dan telah men-deploy
 55+ proyek di sektor industri, energi, dan maritim.
 
 DNA kami adalah CIPTA: Committed, Integrity, Precision, Trust, Adaptive.
-
-Misi kami: Digitalisasi 1.000 pabrik Indonesia hingga 2030.
 
 Kami bukan sekadar mengintegrasikan teknologi.
 Kami merekayasa masa depan industri Indonesia.
@@ -135,10 +130,9 @@ Kami merekayasa masa depan industri Indonesia.
 | Element | Purpose | Target Audience |
 |---------|---------|----------------|
 | "Left comfortable career" | Shows commitment/risk-taking | Investors, Media |
-| "$2.3 billion market" | Market opportunity | Investors |
+| "$2.7 billion market" | Market opportunity | Investors |
 | "Small room in Batam" | Humble origin story | Media, Employees |
 | "Serve Caterpillar" | Credibility proof | Clients, Partners |
-| "1,000 factories by 2030" | Ambitious vision | Investors, Media |
 | "Engineer, not integrate" | Differentiator | All audiences |
 
 ---
@@ -294,14 +288,14 @@ Certified & Recognized:
 
 | Stakeholder | V1 Score | V2 Score | Improvement |
 |-------------|:--------:|:--------:|:-----------:|
-| Potential Client | 7.5 | **9.0** | +1.5 |
-| Potential Investor | 7.0 | **8.5** | +1.5 |
+| Potential Client | 7.5 | **8.5** | +1.0 |
+| Potential Investor | 7.0 | **8.0** | +1.0 |
 | Potential Employee | 7.5 | **8.5** | +1.0 |
 | Potential Partner | 7.0 | **8.5** | +1.5 |
 | Educational Institution | 7.5 | **8.0** | +0.5 |
-| Media / Journalist | 7.5 | **9.0** | +1.5 |
+| Media / Journalist | 7.5 | **8.5** | +1.0 |
 | Government / Regulator | 7.0 | **8.5** | +1.5 |
-| **Average** | **7.3** | **8.6** | **+1.3** |
+| **Average** | **7.3** | **8.3** | **+1.0** |
 
 ---
 
@@ -310,13 +304,12 @@ Certified & Recognized:
 | # | Upgrade Element | Impact on Score |
 |---|----------------|:---------------:|
 | 1 | Bold opening hook ("Indonesia doesn't need resellers...") | +0.3 |
-| 2 | Market size mention ($2.3B) | +0.2 |
+| 2 | Market size mention ($2.7B) | +0.2 |
 | 3 | Dramatic origin story ("left career", "small room") | +0.2 |
-| 4 | Ambitious mission ("1,000 factories by 2030") | +0.3 |
-| 5 | Client testimonial with ROI ("40% cost reduction") | +0.3 |
-| 6 | Unique differentiator ("only local company with...") | +0.2 |
-| 7 | Achievement claim ("First Indonesian CE-certified...") | +0.2 |
-| | **Total Improvement** | **+1.3** |
+| 4 | Client testimonial with ROI ("40% cost reduction") | +0.3 |
+| 5 | Unique differentiator ("only local company with...") | +0.2 |
+| 6 | Achievement claim ("First Indonesian CE-certified...") | +0.2 |
+| | **Total Improvement** | **+1.0** |
 
 ---
 
@@ -326,10 +319,9 @@ Before publishing Version 2, validate these claims:
 
 | Claim | Source Needed | Status |
 |-------|---------------|:------:|
-| "$2.3 billion market" | Industry report (Statista, McKinsey, etc.) | ⏳ Pending |
+| "$2.7 billion market" | Industry report (Statista) | ✅ Validated |
 | "40% cost reduction" | Client confirmation letter | ⏳ Pending |
 | "First Indonesian CE-certified" | Verification research | ⏳ Pending |
-| "1,000 factories by 2030" | Internal commitment approval | ⏳ Pending |
 | "55+ projects" | Project database count | ⏳ Pending |
 | "25+ team members" | HR headcount | ⏳ Pending |
 
@@ -390,7 +382,7 @@ competes globally. Suriota is proof."
 | Element | Version 1 (Score 7) | Version 2 (Score 9) |
 |---------|---------------------|---------------------|
 | **Opening** | Subheadline only | Bold contrarian hook |
-| **CEO Quote** | CIPTA alignment | + Dramatic story + Market data + Mission |
+| **CEO Quote** | CIPTA alignment | + Dramatic story + Market data ($2.7B) |
 | **Metrics** | 4 basic numbers | 4 impressive metrics incl. "2 yrs to Caterpillar" |
 | **Description** | Generic capability | + Clear differentiator + Unique positioning |
 | **Social Proof** | Logos only | + Client testimonial with ROI |
@@ -409,10 +401,10 @@ competes globally. Suriota is proof."
 
 ## Next Steps
 
-1. [ ] Validate all data claims (market size, testimonial, achievement)
+1. [x] Validate market size data ($2.7B from Statista)
 2. [ ] Get client permission for testimonial
 3. [ ] Review with design team for visual implementation
-4. [ ] CEO approval on quote and mission statement
+4. [ ] CEO approval on quote
 5. [ ] Legal review of claims
 6. [ ] Final proofreading (EN & ID versions)
 7. [ ] Design mockup creation
