@@ -1,0 +1,6 @@
+GitHub: https://github.com/suriota-dev/surge-energy-map-frontend
+Local: C:\Users\Administrator\Music\surge-energy-map-frontend
+Website: 
+🔗: https://surge-nextjs-frontend.cp.suriotadb.com/auth/login
+📧: admin@suriota.com
+🔑: Password123 

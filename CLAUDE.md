@@ -5,7 +5,9 @@
 This repository contains business analysis documentation for **PT Surya Inovasi Prioritas (SURIOTA)**, covering:
 
 1. **Company Profile** - About Us page recommendations and analysis
-2. **Products** - Business analysis for SURIOTA hardware products
+2. **Products** - Business analysis for SURIOTA products:
+   - **SRT-MGATE-1210** - Industrial Modbus-to-MQTT Gateway (Hardware)
+   - **SURGE Platform** - Multi-tenant SaaS IoT Monitoring (Software)
 3. **Services** - (Coming soon) Analysis for SURIOTA service offerings
 
 ---
@@ -59,16 +61,57 @@ SURIOTA-Business-Analysis/
 │       └── v1-services.md                       # Final Bilingual EN/ID (Score 8.5)
 │
 ├── products/                                    # Product business analysis
-│   └── SRT-MGATE-1210/                          # Modbus Gateway product
-│       ├── BUSINESS_ANALYSIS.md                 # Main business document (v6.1)
-│       ├── FAQ_TEMPLATE.md                      # FAQ template (v1.1)
-│       └── ROASTING_AND_RESPONSE.md             # Objection handling guide (v1.1)
+│   ├── SRT-MGATE-1210/                          # Modbus Gateway product (Hardware)
+│   │   ├── README.md                            # Documentation index
+│   │   ├── BUSINESS_ANALYSIS.md                 # Main business document (v6.1)
+│   │   │
+│   │   ├── sales/                               # Sales & Marketing documents
+│   │   │   ├── DEMO_SCRIPT.md                   # Product demo script (20-30 min)
+│   │   │   ├── COMPETITOR_BATTLECARD.md         # Competitive selling reference
+│   │   │   ├── CASE_STUDY_TEMPLATE.md           # Customer success story template
+│   │   │   ├── ROI_CALCULATOR.md                # ROI calculation worksheet
+│   │   │   ├── FAQ_TEMPLATE.md                  # FAQ template (v1.1)
+│   │   │   └── ROASTING_AND_RESPONSE.md         # Objection handling guide (v1.1)
+│   │   │
+│   │   ├── onboarding/                          # Customer onboarding documents
+│   │   │   ├── QUICK_START_GUIDE.md             # 15-minute setup guide
+│   │   │   └── INSTALLATION_GUIDE.md            # Hardware installation guide
+│   │   │
+│   │   └── technical/                           # Technical documentation
+│   │       ├── MODBUS_CONFIGURATION.md          # Modbus configuration guide
+│   │       └── TROUBLESHOOTING_GUIDE.md         # Troubleshooting reference
+│   │
+│   └── SURGE/                                   # SURGE Platform (SaaS Software)
+│       ├── README.md                            # Documentation index
+│       ├── BUSINESS_ANALYSIS.md                 # Main business document (v1.0)
+│       │
+│       ├── sales/                               # Sales & Marketing documents
+│       │   ├── DEMO_SCRIPT.md                   # Product demo script (30-45 min)
+│       │   ├── COMPETITOR_BATTLECARD.md         # Competitive selling reference
+│       │   ├── CASE_STUDY_TEMPLATE.md           # Customer success story template
+│       │   ├── ROI_CALCULATOR.md                # ROI calculation worksheet
+│       │   ├── FAQ_TEMPLATE.md                  # FAQ template (v1.0)
+│       │   └── ROASTING_AND_RESPONSE.md         # Objection handling guide (v1.0)
+│       │
+│       ├── onboarding/                          # Customer onboarding documents
+│       │   ├── ONBOARDING_CHECKLIST.md          # Implementation checklist
+│       │   └── KLHK_COMPLIANCE_GUIDE.md         # KLHK compliance guide
+│       │
+│       └── technical/                           # Technical documentation
+│           ├── INTEGRATION_GUIDE.md             # Device & system integration
+│           └── API_QUICK_START.md               # API quick start guide
 │
 ├── data/                                        # Supporting data files
-│   └── SRT-MGATE-1210/                          # Product-specific data
-│       ├── BOM_MODBUS Gateway IoT BD_HR.xlsx    # Bill of Materials
-│       ├── export_project_20251211_065536.xls   # LCSC BOM export
-│       └── Kalkulasi Bg Ilham.jpeg              # Cost calculation reference
+│   ├── SRT-MGATE-1210/                          # Hardware product data
+│   │   ├── BOM_MODBUS Gateway IoT BD_HR.xlsx    # Bill of Materials
+│   │   ├── export_project_20251211_065536.xls   # LCSC BOM export
+│   │   └── Kalkulasi Bg Ilham.jpeg              # Cost calculation reference
+│   │
+│   └── SURGE/                                   # Software product data
+│       ├── Data SURGE.txt                       # Platform access credentials
+│       ├── SURGE-Energy Mapping.pdf             # Energy module documentation
+│       ├── SURGE-Vessel Tracking.pdf            # Vessel module documentation
+│       └── SURGE-Water Analytic.pdf             # Water module documentation
 │
 └── .claude/                                     # Claude Code configuration
     └── settings.local.json
@@ -197,11 +240,118 @@ SURIOTA targets the **mid-range market** with premium features:
 
 ### Documentation Files
 
+**Core:**
 | File | Description |
 |------|-------------|
+| `README.md` | Documentation index and overview |
 | `BUSINESS_ANALYSIS.md` | Complete business analysis (pricing, COGS, strategy) |
+
+**Sales (sales/):**
+| File | Description |
+|------|-------------|
+| `DEMO_SCRIPT.md` | 20-30 minute product demo script |
+| `COMPETITOR_BATTLECARD.md` | Quick reference competitive selling |
+| `CASE_STUDY_TEMPLATE.md` | Customer success story template |
+| `ROI_CALCULATOR.md` | ROI calculation worksheet |
 | `FAQ_TEMPLATE.md` | Standard FAQ responses for customers |
 | `ROASTING_AND_RESPONSE.md` | Objection handling guide |
+
+**Onboarding (onboarding/):**
+| File | Description |
+|------|-------------|
+| `QUICK_START_GUIDE.md` | 15-minute setup guide (TL;DR) |
+| `INSTALLATION_GUIDE.md` | Complete hardware installation guide |
+
+**Technical (technical/):**
+| File | Description |
+|------|-------------|
+| `MODBUS_CONFIGURATION.md` | Modbus device configuration guide |
+| `TROUBLESHOOTING_GUIDE.md` | Complete troubleshooting reference |
+
+---
+
+## Product: SURGE Platform (products/SURGE/)
+
+### Product Overview
+
+**SURGE (Suriota Governance Ecosystem)** is a Multi-Tenant SaaS Platform for industrial IoT monitoring with 3 integrated modules.
+
+### Modules
+
+| Module | Target | Key Parameters |
+|--------|--------|----------------|
+| **Water Analytics** | IPAL, STP, WTP, PDAM | pH, COD, TSS, NH3, Flow |
+| **Energy Mapping** | Buildings, Factories | kWh, kVA, Power Factor |
+| **Vessel Tracking** | Maritime, Fleet | GPS, Fuel, RPM, Speed |
+
+### Pricing
+
+| Plan | Price/Month | Parameters | Locations | Retention |
+|------|-------------|------------|-----------|-----------|
+| Trial | Free | 5 | 1 | 30 days |
+| Starter | $29 (Rp 464K) | 10 | 3 | 90 days |
+| Business | $99 (Rp 1.58M) | 25 | 10 | 1 year |
+| Professional | $299 (Rp 4.78M) | Unlimited | Unlimited | 3 years |
+
+### Key Technical Specifications
+
+- **Architecture**: Frontend-Backend Separation (Next.js + NestJS)
+- **Frontend**: Next.js 15.2.4 + React 19 + TypeScript + Shadcn UI
+- **Backend**: NestJS + PostgreSQL + TimescaleDB + Prisma
+- **Authentication**: Custom JWT with RBAC (viewer/member/admin/owner)
+- **Real-time**: MQTT + Socket.IO
+- **Maps**: Mapbox GL JS
+- **Charts**: Recharts
+- **Uptime SLA**: 99.5% (Standard), 99.9% (Professional)
+
+### Unique Selling Propositions (USP)
+
+1. **3 Industry Modules** - Water, Energy, Vessel in one platform
+2. **KLHK Compliance** - Ready for Indonesian environmental reporting
+3. **Multi-tenant** - Full data isolation per organization
+4. **Bahasa Indonesia** - Full localization + WIB timezone
+5. **Local Support** - WhatsApp + Phone support in Indonesia
+6. **Hardware Integration** - Pre-integrated with SRT-MGATE-1210 gateway
+
+### Competitor Positioning
+
+| Competitor | Price/Month | vs SURGE |
+|------------|-------------|----------|
+| ThingsBoard Startup | $399 | SURGE **75% cheaper** |
+| Grafana Pro | $19+ usage | SURGE predictable pricing |
+| Datacake Business | €31 | SURGE has KLHK compliance |
+| Ubidots Launch | $99 | SURGE has industry modules |
+| Blynk Pro | $49 | SURGE has full web dashboard |
+
+### Documentation Files
+
+**Core:**
+| File | Description |
+|------|-------------|
+| `README.md` | Documentation index and overview |
+| `BUSINESS_ANALYSIS.md` | Complete business analysis (pricing, competitors, strategy) |
+
+**Sales (sales/):**
+| File | Description |
+|------|-------------|
+| `DEMO_SCRIPT.md` | 30-45 minute product demo script |
+| `COMPETITOR_BATTLECARD.md` | Quick reference competitive selling |
+| `CASE_STUDY_TEMPLATE.md` | Customer success story template |
+| `ROI_CALCULATOR.md` | ROI calculation worksheet |
+| `FAQ_TEMPLATE.md` | Standard FAQ responses |
+| `ROASTING_AND_RESPONSE.md` | Objection handling guide |
+
+**Onboarding (onboarding/):**
+| File | Description |
+|------|-------------|
+| `ONBOARDING_CHECKLIST.md` | Complete implementation checklist |
+| `KLHK_COMPLIANCE_GUIDE.md` | KLHK environmental compliance guide |
+
+**Technical (technical/):**
+| File | Description |
+|------|-------------|
+| `INTEGRATION_GUIDE.md` | MQTT, Modbus, API integration guide |
+| `API_QUICK_START.md` | Quick start for API developers |
 
 ---
 
@@ -237,12 +387,26 @@ SURIOTA targets the **mid-range market** with premium features:
 - Focus on Modbus-to-MQTT gateway competitors only
 - All prices in both USD and IDR
 
+### Product (SURGE Platform)
+- **3 Integrated Modules**: Water Analytics, Energy Mapping, Vessel Tracking
+- **Pricing**: Trial (Free), Starter ($29), Business ($99), Professional ($299)
+- **Key differentiator**: KLHK Compliance + Bahasa Indonesia + Local Support
+- **Competitors**: ThingsBoard, Grafana, Datacake, Blynk, Ubidots
+- **Architecture**: Next.js 15 + NestJS + PostgreSQL + TimescaleDB
+- **Integration**: Pre-integrated with SRT-MGATE-1210 gateway
+- **Focus on**: SMB to Enterprise industrial monitoring
+
 ---
 
 ## Related Repositories
 
+**Hardware (SRT-MGATE-1210):**
 - `GatewaySuriotaPOC` - Main firmware source code
 - `GatewaySuriotaOTA` - OTA firmware releases
+
+**Software (SURGE Platform):**
+- `surge-energy-map-frontend` - Frontend Next.js application
+- `surge--water-analytics-backend` - Backend NestJS application
 
 ---
 
