@@ -2,10 +2,27 @@
 
 ## Panduan Presentasi Demo untuk Sales Team
 
-**Document Version**: 1.0
-**Last Updated**: December 28, 2025
+**Document Version**: 2.0
+**Last Updated**: December 29, 2025
 **Duration**: 30-45 menit
 **Audience**: Prospect customer (Ops Manager, Environment Manager, IT Manager)
+
+---
+
+# PRICING QUICK REFERENCE
+
+Sebelum demo, hafal struktur pricing terbaru:
+
+| Plan | Price | Tag Data | Locations | Logging | Retention |
+|------|-------|:--------:|:---------:|:-------:|:---------:|
+| Trial | Free | 5 | Unlimited | 2 min | 30 hari |
+| Starter | $29/mo (Rp 464K) | 30 | Unlimited | 1 min | 1 tahun |
+| Business | $99/mo (Rp 1.58M) | 100 | Unlimited | 1 min | 2 tahun |
+| Professional | $299/mo (Rp 4.78M) | Unlimited | Unlimited | Custom | 5 tahun |
+
+**Key Differentiator:** Semua tier = **Unlimited locations** (unik vs kompetitor!)
+
+**Trial = Private Access:** Customer harus kontak tim SURIOTA untuk demo account.
 
 ---
 
@@ -26,7 +43,8 @@
 | Pertanyaan | Jawaban Customer | Impact |
 |------------|------------------|--------|
 | Industri apa? | _____________ | Pilih modul yang relevan |
-| Berapa lokasi? | _____________ | Tentukan tier yang cocok |
+| Berapa lokasi/site? | _____________ | Highlight unlimited locations |
+| Berapa parameter yang dimonitor? | _____________ | Tentukan tier yang cocok |
 | Sensor/device apa yang dipakai? | _____________ | Tunjukkan integrasi |
 | Masalah utama saat ini? | _____________ | Focus pain point |
 | Budget range? | _____________ | Sesuaikan pricing discussion |
@@ -77,7 +95,10 @@
 
 > "Sedikit tentang kami - SURIOTA adalah perusahaan IoT lokal yang fokus di industrial monitoring. SURGE adalah platform SaaS kami yang sudah dipakai untuk monitoring kualitas air, energi, dan armada kapal.
 >
-> Yang membedakan kami: support lokal dalam Bahasa Indonesia, dan untuk Water Analytics - sudah siap untuk compliance KLHK."
+> Yang membedakan kami:
+> - **Unlimited locations** di semua tier pricing
+> - Support lokal dalam Bahasa Indonesia
+> - Untuk Water Analytics - sudah siap untuk compliance KLHK"
 
 ---
 
@@ -99,6 +120,14 @@ Kemungkinan jawaban & follow-up:
 | "Sudah ada SCADA" | "Apakah bisa diakses dari luar site? Atau harus di control room?" |
 | "Pakai platform X" | "Apa yang kurang dari platform tersebut?" |
 | "Belum ada monitoring" | "Apa yang memotivasi untuk mulai monitoring sekarang?" |
+
+### Follow-up: Locations
+
+> "**Pertanyaan 2:** Berapa banyak lokasi atau site yang perlu dimonitor?"
+
+*[Jika banyak lokasi, highlight unlimited locations advantage]*
+
+> "Bagus, dengan SURGE semua tier sudah include **unlimited locations**. Jadi mau 5 site atau 50 site, harganya sama - cukup pilih berdasarkan jumlah parameter."
 
 ### Confirm Pain Points
 
@@ -134,6 +163,7 @@ Kemungkinan jawaban & follow-up:
 - Real-time data (tunjukkan timestamp)
 - Clean, modern interface
 - Bahasa Indonesia option
+- **Unlimited locations dalam satu dashboard**
 
 ---
 
@@ -146,9 +176,9 @@ Kemungkinan jawaban & follow-up:
 > "Karena Bapak/Ibu dari [IPAL/industri], saya fokuskan ke Water Analytics module..."
 
 **Step 1: Location Map (1 menit)**
-> "Di sini terlihat peta semua outlet monitoring. Klik salah satu untuk lihat detail..."
-
-*[Klik lokasi di map]*
+> "Di sini terlihat peta semua outlet monitoring. Karena SURGE unlimited locations, Bapak/Ibu bisa tambah banyak site tanpa extra cost..."
+>
+> *[Klik lokasi di map]*
 
 **Step 2: Real-time Parameters (2 menit)**
 > "Ini parameter real-time dari outlet ini:
@@ -156,14 +186,14 @@ Kemungkinan jawaban & follow-up:
 > - COD: [nilai] mg/L
 > - TSS: [nilai] mg/L
 >
-> Lihat, data update setiap [interval]. Kalau ada yang melewati threshold, langsung alert."
+> Data update setiap **1 menit** (untuk paid plan) dan di-log ke database. Kalau ada yang melewati threshold, langsung alert."
 
 **Step 3: Historical Chart (2 menit)**
 > "Untuk melihat trend, kita bisa pilih range waktu...
 >
 > *[Pilih last 7 days]*
 >
-> Di sini terlihat pattern pH selama seminggu terakhir. Kalau ada anomaly, bisa langsung terdeteksi."
+> Data history tersimpan hingga **5 tahun** di Professional plan. Di sini terlihat pattern pH selama seminggu terakhir. Kalau ada anomaly, bisa langsung terdeteksi."
 
 **Step 4: KLHK Export (2 menit)**
 > "Yang paling penting untuk compliance - export data...
@@ -177,7 +207,7 @@ Kemungkinan jawaban & follow-up:
 >
 > *[Tunjukkan alert settings]*
 >
-> Ketika parameter melewati batas, notifikasi otomatis via email. WhatsApp notification coming soon."
+> Ketika parameter melewati batas, notifikasi otomatis via email. WhatsApp notification coming soon Q1 2026."
 
 ---
 
@@ -188,13 +218,17 @@ Kemungkinan jawaban & follow-up:
 > "Karena fokus di energy management, saya tunjukkan Energy Mapping module..."
 
 **Step 1: Building/Floor Map (1 menit)**
-> "Ini peta gedung dengan semua meter yang terpasang. Warna menunjukkan status - hijau normal, merah high consumption..."
+> "Ini peta gedung dengan semua meter yang terpasang. Warna menunjukkan status - hijau normal, merah high consumption...
+>
+> Semua gedung Bapak/Ibu bisa masuk sini - unlimited locations."
 
 **Step 2: Real-time kWh (2 menit)**
 > "Untuk setiap meter, kita bisa lihat:
 > - Konsumsi real-time dalam kWh
 > - Power factor
-> - Peak demand"
+> - Peak demand
+>
+> Data di-log setiap **1 menit** untuk historical analysis."
 
 **Step 3: Comparison Chart (2 menit)**
 > "Yang powerful - comparison antar zona atau antar periode...
@@ -222,7 +256,7 @@ Kemungkinan jawaban & follow-up:
 > "Untuk fleet management, ini Vessel Tracking module..."
 
 **Step 1: Fleet Map (2 menit)**
-> "Semua kapal terlihat di peta maritim. Posisi update setiap [interval].
+> "Semua kapal terlihat di peta maritim. Posisi update setiap [interval]. Unlimited vessels - mau 10 atau 100 kapal, sama saja.
 >
 > *[Klik salah satu vessel]*
 >
@@ -238,7 +272,7 @@ Kemungkinan jawaban & follow-up:
 >
 > *[Playback route]*
 >
-> Kapan berangkat, rute yang diambil, berapa lama di setiap port."
+> Kapan berangkat, rute yang diambil, berapa lama di setiap port. Data tersimpan hingga **5 tahun** di Professional."
 
 **Step 4: Engine Performance (2 menit)**
 > "RPM dan engine parameters untuk preventive maintenance. Kalau ada pattern abnormal, bisa schedule maintenance sebelum breakdown di tengah laut."
@@ -250,13 +284,16 @@ Kemungkinan jawaban & follow-up:
 > "Satu lagi yang penting - SURGE adalah multi-tenant platform.
 >
 > Artinya:
-> - Setiap organisasi punya data terpisah dan terisolasi
-> - Bisa invite team member dengan role berbeda (viewer, member, admin)
-> - Owner bisa manage semua settings
+> - Setiap organisasi punya data terpisah dan **100% terisolasi**
+> - Bisa invite team member dengan role berbeda:
+>   - **Viewer** - lihat dashboard saja
+>   - **Member** - bisa export data
+>   - **Admin** - manage users dan settings
+>   - **Owner** - full control
 >
 > *[Tunjukkan organization settings]*
 >
-> Jadi kalau Bapak/Ibu punya beberapa site, semua bisa dikelola dari satu dashboard."
+> Jadi kalau Bapak/Ibu punya beberapa site, semua bisa dikelola dari satu dashboard - dan ingat, **unlimited locations included**."
 
 ---
 
@@ -268,14 +305,26 @@ Kemungkinan jawaban & follow-up:
 
 *[Tampilkan pricing atau share screen pricing page]*
 
-| Plan | Price | Best For |
-|------|-------|----------|
-| Trial | Free (30 hari) | Testing, PoC |
-| Starter ($29/mo) | Rp 464K | Single facility, <10 params |
-| Business ($99/mo) | Rp 1.58M | Multi-location, <25 params |
-| Professional ($299/mo) | Rp 4.78M | Enterprise, unlimited |
+| Plan | Price | Tag Data | Locations | Retention | Best For |
+|------|-------|:--------:|:---------:|:---------:|----------|
+| **Trial** | Free | 5 tags | Unlimited | 30 hari | Testing, PoC, Demo |
+| **Starter** | $29/mo (Rp 464K) | 30 tags | Unlimited | 1 tahun | Single facility, SMB |
+| **Business** | $99/mo (Rp 1.58M) | 100 tags | Unlimited | 2 tahun | Multi-site, growth |
+| **Professional** | $299/mo (Rp 4.78M) | Unlimited | Unlimited | 5 tahun | Enterprise, complex |
 
-> "Berdasarkan kebutuhan Bapak/Ibu dengan [X lokasi] dan [Y parameter], saya rekomendasikan **[Plan]**."
+> "Yang unik dari SURGE: **semua tier sudah unlimited locations**. Jadi kalau Bapak/Ibu punya [X] lokasi, tidak ada extra charge per lokasi.
+>
+> Pilih tier berdasarkan jumlah **tag data** (parameter yang dimonitor)."
+
+### Tier Recommendation
+
+> "Berdasarkan kebutuhan Bapak/Ibu dengan **[X] parameter** di **[Y] lokasi**, saya rekomendasikan **[Plan]**."
+
+**Quick Guide:**
+- ≤5 tags, testing: Trial
+- 6-30 tags: Starter ($29)
+- 31-100 tags: Business ($99)
+- >100 tags atau butuh 5-year retention: Professional ($299)
 
 ### ROI Discussion
 
@@ -286,8 +335,9 @@ Kemungkinan jawaban & follow-up:
 > - Man-hours untuk manual reporting: [X] jam/bulan × Rp [Y] = Rp [Z]
 > - Downtime dari masalah yang tidak terdeteksi: Rp [estimasi]
 >
-> **Investment SURGE:**
-> - [Plan] = Rp [harga]/bulan = Rp [annual]/tahun
+> **Investment SURGE [Plan]:**
+> - Rp [harga]/bulan = Rp [annual]/tahun
+> - Sudah include: Unlimited locations, [X] tahun data retention, support
 >
 > **Payback:** Satu incident yang dicegah sudah cover [X] tahun subscription."
 
@@ -301,28 +351,33 @@ Kemungkinan jawaban & follow-up:
 
 *[Jawab pertanyaan - gunakan FAQ dan Roasting guide jika perlu]*
 
-### Trial Offer
+### Trial Offer (PENTING: Private Access)
 
-> "Untuk next step, saya sarankan:
+> "Untuk next step, karena Trial SURGE adalah **private access** (tidak self-signup), prosesnya:
 >
-> 1. **Trial gratis 30 hari** - Test dengan data real Bapak/Ibu
-> 2. Kami bantu setup dan connect device pertama
-> 3. Setelah 30 hari, evaluasi dan decide
+> 1. **Saya buatkan demo account** untuk Bapak/Ibu dengan 5 tag data
+> 2. **Jadwalkan call 30 menit** untuk setup bersama
+> 3. **Test selama 30 hari** dengan data real
+> 4. Setelah itu, evaluasi dan decide
 >
-> Tidak ada commitment, tidak perlu kartu kredit untuk trial.
+> Tidak ada commitment, akses gratis selama trial.
 >
 > Apakah Bapak/Ibu tertarik untuk mulai trial?"
 
 ### Close with Action
 
 **Jika YES:**
-> "Bagus! Saya akan kirimkan link registrasi dan jadwalkan call untuk setup. Kapan waktu yang convenient untuk setup call - [opsi 1] atau [opsi 2]?"
+> "Bagus! Saya akan:
+> 1. Kirimkan email dengan link akses
+> 2. Jadwalkan call untuk setup - **[opsi 1]** atau **[opsi 2]**?
+>
+> WhatsApp mana yang bisa saya hubungi untuk koordinasi?"
 
 **Jika NEED TIME:**
 > "Tidak masalah. Saya akan kirimkan:
 > 1. Summary demo hari ini
-> 2. Proposal pricing
-> 3. Link untuk daftar trial jika siap
+> 2. Proposal pricing sesuai kebutuhan
+> 3. Kontak langsung kalau ada pertanyaan
 >
 > Kapan saya bisa follow-up untuk discuss lebih lanjut?"
 
@@ -339,11 +394,14 @@ Kemungkinan jawaban & follow-up:
 
 | Question | Quick Answer |
 |----------|--------------|
-| "Bisa connect ke sensor merk X?" | "Kalau support Modbus atau MQTT, pasti bisa. Kami juga jual gateway untuk konversi." |
+| "Kenapa Trial harus kontak dulu?" | "Supaya kami bisa bantu setup optimal dan kasih onboarding personal. Prosesnya cepat - hari ini request, besok bisa akses." |
+| "5 tag cukup tidak untuk test?" | "5 tag = 1 sistem lengkap (pH+COD+TSS+Flow+Level). Cukup untuk validate platform. Kalau butuh lebih, bisa extended trial." |
+| "Bisa connect ke sensor merk X?" | "Kalau support Modbus atau MQTT, pasti bisa. Kami juga jual gateway (SRT-MGATE-1210) untuk konversi." |
 | "Data di-host di mana?" | "Cloud server di Singapore. Untuk enterprise, bisa Indonesia hosting atau on-premise." |
-| "Bagaimana security-nya?" | "Encrypted, multi-tenant isolated, RBAC. SOC 2 certification dalam proses." |
-| "Sudah ada customer lain?" | "Ya, sudah ada beberapa pilot di industri [X]. Referensi bisa diatur jika perlu." |
+| "Bagaimana security-nya?" | "Encrypted, multi-tenant isolated, RBAC 4 roles. SOC 2 certification dalam proses." |
+| "Sudah ada customer lain?" | "Ya, sudah ada pilot di industri [X]. Referensi bisa diatur jika perlu." |
 | "Bisa custom fitur?" | "Professional tier bisa request custom. Atau via API untuk integrasi sendiri." |
+| "Apa bedanya tag dan locations?" | "Tag = parameter data (pH, kWh, speed). Locations = tempat fisik (gedung, pabrik). Locations unlimited, tag ada batasnya per tier." |
 
 ---
 
@@ -364,8 +422,8 @@ Kemungkinan jawaban & follow-up:
 
 | Item | Value |
 |------|-------|
-| **URL** | https://surge-nextjs-frontend.cp.suriotadb.com |
-| **Email** | admin@suriota.com |
+| **URL** | https://surge.suriota.com |
+| **Demo Email** | admin@suriota.com |
 | **Password** | [Contact admin for password] |
 
 **Demo Data Available:**
@@ -373,8 +431,37 @@ Kemungkinan jawaban & follow-up:
 - Sample building with energy data
 - Sample vessel with route history
 
+**Trial Account Creation:**
+- Contact support@suriota.com atau WA +62 858-3567-2476
+- Provide customer email dan use case
+- Account created dalam 1 hari kerja
+
 ---
 
-_Document Version: 1.0_
+# QUICK REFERENCE: FEATURE HIGHLIGHTS
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    SURGE KEY FEATURES                               │
+├─────────────────────────────────────────────────────────────────────┤
+│  ✓ Live Monitoring (real-time via Socket.IO)                       │
+│  ✓ Interactive Charts (Line, Bar, Gauge, Scatter - Recharts)       │
+│  ✓ Database Logging (1-min interval, TimescaleDB)                  │
+│  ✓ Role Access Management (4 roles: Viewer/Member/Admin/Owner)     │
+│  ✓ Map View (Mapbox GL JS)                                         │
+│  ✓ Heatmap (coming soon)                                           │
+│  ✓ Alert/Notification (Email, WA coming Q1 2026)                   │
+│  ✓ Data Export (Excel/CSV/KLHK format)                             │
+│  ✓ API Access (REST API untuk integrasi)                           │
+│  ✓ Multi-tenant (100% data isolation)                              │
+│  ✓ 3 Industry Modules (Water, Energy, Vessel)                      │
+├─────────────────────────────────────────────────────────────────────┤
+│  KEY DIFFERENTIATOR: Unlimited locations di SEMUA tier!             │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+_Document Version: 2.0_
 _For Internal Sales Team Use_
-_Last Updated: December 28, 2025_
+_Last Updated: December 29, 2025_

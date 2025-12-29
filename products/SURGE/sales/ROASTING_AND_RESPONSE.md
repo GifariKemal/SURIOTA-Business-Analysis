@@ -2,9 +2,27 @@
 
 ## Panduan Menghadapi Kritik Keras dari Customer
 
-**Document Version**: 1.0
-**Last Updated**: December 28, 2025
+**Document Version**: 2.0
+**Last Updated**: December 29, 2025
 **Purpose**: Mempersiapkan tim sales menghadapi pertanyaan/kritik tajam
+
+---
+
+# PRICING QUICK REFERENCE
+
+Sebelum masuk ke roasting responses, pastikan hafal struktur pricing:
+
+| Plan | Price | Tag Data | Locations | Logging | Retention | Access |
+|------|-------|:--------:|:---------:|:-------:|:---------:|:------:|
+| Trial | Free | 5 | Unlimited | 2 min | 30 hari | Private (invitation) |
+| Starter | $29/mo | 30 | Unlimited | 1 min | 1 tahun | Public |
+| Business | $99/mo | 100 | Unlimited | 1 min | 2 tahun | Public |
+| Professional | $299/mo | Unlimited | Unlimited | Custom | 5 tahun | Public |
+
+**Key Differentiators:**
+- **Semua tier = Unlimited locations** (unik dibanding kompetitor)
+- **Tag data** = jumlah parameter monitoring (pH, suhu, kWh, dll)
+- **Trial = Private** = harus kontak SURIOTA untuk demo account
 
 ---
 
@@ -17,6 +35,7 @@
 5. [Feature Comparison](#5-feature-comparison)
 6. [Security & Compliance](#6-security--compliance)
 7. [Use Case Specific](#7-use-case-specific)
+8. [Trial Access Objections](#8-trial-access-objections)
 
 ---
 
@@ -47,11 +66,11 @@
 >
 > **Mitigasi Risiko:**
 >
-> - Trial gratis 30 hari untuk buktikan sendiri
-> - Money back guarantee jika tidak sesuai ekspektasi
+> - Demo account untuk evaluasi fitur (kontak tim kami)
+> - Trial gratis dengan data Anda sendiri
 > - Direct access ke engineering team untuk issue resolution
 >
-> **Pertanyaan balik:** Boleh kami arrange demo dan trial 30 hari? Anda bisa test di environment production real dengan data real.
+> **Pertanyaan balik:** Boleh kami arrange demo session? Anda bisa test dengan data real di environment kita.
 
 ---
 
@@ -78,10 +97,11 @@
 >
 > **SURGE Business Plan:**
 >
-> - $99/bulan = SEMUA sudah included
+> - $99/bulan = 100 tag data + SEMUA sudah included
 > - No server management
 > - No DevOps needed
 > - Backup + Security included
+> - **Unlimited locations** (bisa monitor banyak site)
 >
 > **Tambahan yang ThingsBoard CE TIDAK punya:**
 >
@@ -90,7 +110,7 @@
 > - Local support WA/Phone
 > - Industry-specific modules (Water, Energy, Vessel)
 >
-> **Kesimpulan:** ThingsBoard CE "gratis" tapi butuh biaya $600+/bulan untuk operasional. SURGE $99/bulan all-inclusive.
+> **Kesimpulan:** ThingsBoard CE "gratis" tapi butuh biaya $600+/bulan untuk operasional. SURGE $99/bulan all-inclusive dengan 100 tag data.
 
 ---
 
@@ -119,7 +139,7 @@
 >
 > **Worst Case Scenario:**
 >
-> - 30-day notice sebelum shutdown (if ever)
+> - 90-day notice sebelum shutdown (if ever)
 > - Full data export assistance
 > - Source code escrow bisa dinegosiasi untuk enterprise contract
 >
@@ -158,8 +178,8 @@
 >
 > **Enterprise Features Kami Punya:**
 >
-> - RBAC (Role-Based Access Control)
-> - Multi-tenancy dengan data isolation
+> - RBAC (Role-Based Access Control) - 4 roles: Viewer, Member, Admin, Owner
+> - Multi-tenancy dengan complete data isolation
 > - JWT authentication dengan refresh token
 > - API rate limiting
 > - Audit logging
@@ -207,8 +227,8 @@
 >
 > **Untuk 10,000 Device:**
 >
-> - Custom enterprise deployment
-> - Dedicated infrastructure
+> - Professional plan ($299/mo) sebagai starting point
+> - Custom enterprise deployment jika perlu dedicated infrastructure
 > - SLA 99.9%
 > - Priority support
 >
@@ -272,11 +292,11 @@
 >
 > **Starter Plan Available ($29/bulan = Rp 464,000):**
 >
-> - 10 parameters
-> - 3 lokasi
-> - 90-day retention
-> - Full dashboard
-> - Email support
+> - **30 tag data** (3x lebih banyak dari kompetitor entry-level)
+> - **Unlimited lokasi** (bisa monitor banyak site!)
+> - 1-year data retention
+> - Full dashboard & analytics
+> - Email + WhatsApp support
 >
 > **Cost of NOT Having Monitoring:**
 >
@@ -295,7 +315,7 @@
 >
 > **Break-even:** Dalam 1 bulan pertama!
 >
-> **Kesimpulan:** Rp 464K/bulan = asuransi terhadap penalty + produktivitas.
+> **Kesimpulan:** Rp 464K/bulan = asuransi terhadap penalty + produktivitas. Dan dengan 30 tag data + unlimited locations, cukup untuk SMB menengah.
 
 ---
 
@@ -370,10 +390,12 @@
 > - 2 devices = meaningless untuk real deployment
 > - 30-day retention only
 > - No industrial features
+> - No local support
 >
-> **SURGE Free Tier:**
+> **SURGE Trial:**
 >
-> - 5 parameters (real testing capability)
+> - **5 tag data** (real testing capability)
+> - **Unlimited locations** (tidak dibatasi!)
 > - 30-day retention
 > - Full dashboard (not crippled)
 > - Indonesia localization
@@ -381,14 +403,54 @@
 >
 > **Paid Tier Comparison:**
 >
-> | Platform    | 25 params equivalent | Price/month |
-> | ----------- | -------------------- | ----------- |
-> | ThingsBoard | Custom pricing       | $200+       |
-> | Datacake    | ~€50/month           | ~Rp 850K    |
-> | Ubidots     | $99/month            | Rp 1.6M     |
-> | **SURGE**   | Business plan        | **$99**     |
+> | Platform    | ~30 tags equivalent | Price/month    | Locations |
+> | ----------- | ------------------- | -------------- | --------- |
+> | ThingsBoard | Custom pricing      | $200+          | Limited   |
+> | Datacake    | Light plan          | €150/mo        | Limited   |
+> | Ubidots     | Launch plan         | $99/mo         | Limited   |
+> | **SURGE**   | **Starter plan**    | **$29/mo**     | **Unlimited** |
 >
-> **Kesimpulan:** "Free" sering berarti "hidden costs" atau "unusable limits".
+> **Kesimpulan:** "Free" sering berarti "hidden costs" atau "unusable limits". SURGE transparan dan memberikan unlimited locations di semua tier.
+
+---
+
+## ROASTING 3.4: "Kenapa Starter lebih murah tapi dapat lebih banyak tag dari Trial?"
+
+**Kritik:**
+
+> "Trial 5 tag, Starter 30 tag. Logic-nya apa? Kenapa tidak kasih lebih banyak di Trial?"
+
+**Response:**
+
+> Great question! Ini pertimbangan bisnis kami:
+>
+> **Trial Purpose:**
+>
+> - Tujuan: Evaluasi fitur dan UX, bukan production use
+> - 5 tag = cukup untuk test 1 sistem lengkap (pH + COD + TSS + Flow + Level)
+> - 30 hari = cukup untuk evaluasi
+> - **Private access**: Kami butuh qualify customer dulu
+>
+> **Why Private Trial?**
+>
+> - Menghindari abuse (mining/spam)
+> - Memastikan serious buyer
+> - Kami bisa bantu setup yang optimal
+> - Personal demo + onboarding
+>
+> **Starter = Entry Production:**
+>
+> - 30 tag = 6x lipat dari Trial
+> - 1 tahun retention (vs 30 hari)
+> - 1-minute logging interval (vs 2-min)
+> - Production-ready, bukan evaluasi
+>
+> **Analogi:**
+>
+> - Trial = Test drive mobil (30 menit)
+> - Starter = Sewa mobil harian (bisa pakai full)
+>
+> **Kesimpulan:** Trial untuk evaluasi dengan pendampingan, Starter untuk production dengan value lebih.
 
 ---
 
@@ -454,14 +516,15 @@
 > | 99.9%  | 8.76 jam      | 43.8 menit     | Enterprise       |
 > | 99.99% | 52.56 menit   | 4.38 menit     | Mission-critical |
 >
-> **SURGE SLA Options:**
+> **SURGE SLA by Plan:**
 >
-> | Plan         | Uptime SLA | Credit if Fail |
-> | ------------ | ---------- | -------------- |
-> | Starter      | 99%        | No             |
-> | Business     | 99.5%      | Yes            |
-> | Professional | 99.9%      | Yes + priority |
-> | Enterprise   | 99.99%     | Negotiable     |
+> | Plan         | Uptime SLA | Data Retention | Credit if Fail |
+> | ------------ | ---------- | -------------- | -------------- |
+> | Trial        | Best effort| 30 hari        | No             |
+> | Starter      | 99%        | 1 tahun        | No             |
+> | Business     | 99.5%      | 2 tahun        | Yes            |
+> | Professional | 99.9%      | 5 tahun        | Yes + priority |
+> | Enterprise   | 99.99%     | Custom         | Negotiable     |
 >
 > **Architecture for High Availability:**
 >
@@ -528,7 +591,7 @@
 >
 > **Planned Features:**
 >
-> - Simple automation rules (Q1 2026)
+> - Simple automation rules (Q2 2026)
 > - SMS/WhatsApp alerts (Q1 2026)
 > - Escalation workflows (Q2 2026)
 >
@@ -564,10 +627,11 @@
 >
 > **SURGE Visualization:**
 >
-> - Line, bar, gauge, scatter charts
-> - Real-time updates
-> - Interactive maps
+> - Line, bar, gauge, scatter charts (Recharts)
+> - Real-time updates via Socket.IO
+> - Interactive maps (Mapbox GL JS)
 > - Device-centric view
+> - Heatmap (coming soon)
 > - Cukup untuk 90% industrial monitoring
 >
 > **Best of Both Worlds:**
@@ -653,11 +717,11 @@
 >
 > **On-Premise Option (Enterprise):**
 >
-> | Item              | Requirement                         |
-> | ----------------- | ----------------------------------- | ---------------- |
-> |                   | Minimum server                      | 8 core, 32GB RAM |
-> | Database          | PostgreSQL + TimescaleDB            |
-> | Container runtime | Docker/Kubernetes                   |
+> | Item              | Requirement          |
+> | ----------------- | -------------------- |
+> | Minimum server    | 8 core, 32GB RAM     |
+> | Database          | PostgreSQL + TimescaleDB |
+> | Container runtime | Docker/Kubernetes    |
 > | Pricing           | $10,000 setup + $2,000/year license |
 >
 > **Hybrid Option:**
@@ -707,7 +771,7 @@
 > **Application Security:**
 >
 > - JWT authentication
-> - RBAC authorization
+> - RBAC authorization (4 roles)
 > - Input validation (Zod)
 > - SQL injection protection (Prisma ORM)
 > - Rate limiting
@@ -769,8 +833,9 @@
 >
 > - Real-time alerting jika parameter mendekati batas
 > - Trend analysis untuk preventive action
-> - Data history untuk troubleshooting
+> - Data history untuk troubleshooting (hingga 5 tahun di Professional)
 > - Reduce surprise saat lab testing bulanan
+> - Export format sesuai SISPEK KLHK
 >
 > **Kesimpulan:** SURGE = operational monitoring, BUKAN pengganti lab akreditasi. Keduanya complementary.
 
@@ -813,6 +878,7 @@
 > - Advanced reporting untuk management
 > - Integration dengan non-Schneider devices
 > - Cost allocation per tenant/department
+> - **Unlimited locations** - monitor semua gedung dalam satu dashboard
 >
 > **Kesimpulan:** BMS untuk control, SURGE untuk analytics dan multi-site visibility.
 
@@ -868,20 +934,140 @@
 
 ---
 
+# 8. TRIAL ACCESS OBJECTIONS
+
+## ROASTING 8.1: "Kenapa Trial harus kontak dulu? Kompetitor langsung signup!"
+
+**Kritik:**
+
+> "Datacake, Ubidots bisa langsung signup dan pakai. SURGE ribet harus kontak tim dulu."
+
+**Response:**
+
+> Valid concern! Ini alasan kami:
+>
+> **Why Private Trial?**
+>
+> | Concern                 | Our Mitigation                     |
+> | ----------------------- | ---------------------------------- |
+> | Prevent abuse           | Qualify serious prospects          |
+> | Better onboarding       | Personal demo + setup assistance   |
+> | Optimal configuration   | Kami bantu setup yang benar        |
+> | Industry-specific setup | Water/Energy/Vessel needs differ   |
+>
+> **What You Get with Our Process:**
+>
+> ```
+> ┌──────────────────────────────────────────────────────────────┐
+> │  KOMPETITOR                │  SURGE                          │
+> ├──────────────────────────────────────────────────────────────┤
+> │  Self-signup               │  Guided demo                    │
+> │  Figure out yourself       │  Personal onboarding            │
+> │  Generic tutorial          │  Industry-specific setup        │
+> │  Generic limits            │  Configured for your use case   │
+> │  No one to call            │  Direct WA support              │
+> └──────────────────────────────────────────────────────────────┘
+> ```
+>
+> **Process Time:**
+>
+> - Kontak via WA/email: Instantly
+> - Demo scheduling: Same day atau next day
+> - Account creation: During atau after demo
+> - **Total: <24 jam** (bukan berminggu-minggu)
+>
+> **Honest Admission:**
+>
+> - Ya, ini friction point
+> - Trade-off: Better qualified leads = better support per customer
+> - Self-signup dalam roadmap untuk Starter plan (Q2 2026)
+>
+> **Kesimpulan:** 24 jam extra untuk dapat dedicated support dan optimal setup. Worth it.
+
+---
+
+## ROASTING 8.2: "Trial cuma 5 tag, tidak cukup untuk test proper!"
+
+**Kritik:**
+
+> "5 tag data terlalu sedikit. Kami butuh setidaknya 20 untuk test meaningful."
+
+**Response:**
+
+> Understandable concern. Mari kita breakdown:
+>
+> **What 5 Tags Can Monitor:**
+>
+> | Use Case       | Example 5 Tags                          |
+> | -------------- | --------------------------------------- |
+> | Water (IPAL)   | pH, COD, TSS, NH3, Flow                 |
+> | Energy         | kWh, kVA, PF, Volt, Amp                 |
+> | Vessel         | GPS Lat, GPS Lon, Fuel, RPM, Speed      |
+>
+> **5 Tags = 1 Complete System Test:**
+>
+> - Cukup untuk prove concept bekerja
+> - Test semua fitur: dashboard, alerts, export
+> - Validate integration dengan device
+>
+> **If You Need More:**
+>
+> | Option               | Tags | Price      | Duration |
+> | -------------------- | ---- | ---------- | -------- |
+> | Trial                | 5    | Free       | 30 days  |
+> | Extended Trial       | 15   | By request | 30 days  |
+> | Starter (production) | 30   | $29/mo     | Ongoing  |
+>
+> **Extended Trial untuk Serious Prospects:**
+>
+> - Jika butuh 15-20 tags untuk proper POC
+> - Request via sales team
+> - Case-by-case approval
+> - Usually untuk enterprise prospects
+>
+> **Kesimpulan:** 5 tag cukup untuk proof of concept. Extended trial available untuk serious prospects.
+
+---
+
 # QUICK REFERENCE CARD
 
 ## Objection → One-Liner Response
 
 | Objection                     | Quick Response                                                          |
 | ----------------------------- | ----------------------------------------------------------------------- |
-| "Platform baru, tidak proven" | "Tech stack sama dengan Netflix/Uber. Trial 30 hari untuk buktikan."    |
-| "ThingsBoard gratis"          | "Self-hosting $600+/bulan. SURGE $99 all-inclusive + KLHK compliance."  |
-| "Terlalu mahal"               | "Starter $29/bulan. Satu penalty KLHK = 10 tahun subscription."         |
+| "Platform baru, tidak proven" | "Tech stack sama dengan Netflix/Uber. Demo gratis untuk buktikan."      |
+| "ThingsBoard gratis"          | "Self-hosting $600+/bulan. SURGE $99 all-inclusive + KLHK + unlimited locations." |
+| "Terlalu mahal"               | "Starter $29/bulan, 30 tags, unlimited lokasi. Satu penalty KLHK = 10 tahun subscription." |
+| "Trial cuma 5 tag"            | "5 tag = 1 sistem lengkap. Extended trial available untuk serious prospects." |
+| "Kenapa harus kontak dulu?"   | "24 jam untuk dapat demo + setup optimal. Self-signup coming Q2 2026."  |
 | "Tidak ada mobile app"        | "PWA works sekarang. Native app dalam roadmap Q3 2026."                 |
 | "Security certification?"     | "AWS infrastructure (SOC 2), SOC 2 app-level in progress Q2 2026."      |
 | "Mau on-premise"              | "Available untuk enterprise. $10K setup + $2K/year license."            |
 | "Visualization kurang"        | "90% use case covered. Grafana bisa integrate via API kalau mau."       |
-| "Sudah ada BMS/SCADA"         | "SURGE complement, bukan replace. Add remote + analytics + multi-site." |
+| "Sudah ada BMS/SCADA"         | "SURGE complement, bukan replace. Add remote + analytics + unlimited locations." |
+| "Retention terlalu pendek"    | "Trial 30d, Starter 1y, Business 2y, Pro 5 tahun. Pick your need."     |
+
+---
+
+## Pricing Cheat Sheet
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                           SURGE PRICING v2.0                                    │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  TRIAL          STARTER         BUSINESS         PROFESSIONAL                   │
+│  Free           $29/mo          $99/mo           $299/mo                        │
+│  ──────────     ──────────      ──────────       ──────────                     │
+│  5 tags         30 tags         100 tags         Unlimited tags                 │
+│  Unlimited loc  Unlimited loc   Unlimited loc    Unlimited loc                  │
+│  2-min logging  1-min logging   1-min logging    Custom logging                 │
+│  30-day data    1-year data     2-year data      5-year data                    │
+│  Private/Demo   Public          Public           Public                         │
+│  Email support  WA support      Phone support    24/7 support                   │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  KEY MESSAGE: Unlimited locations di SEMUA tier = unique vs kompetitor!         │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -893,18 +1079,18 @@ Ketika customer masih ragu setelah semua penjelasan:
 >
 > Yang bisa kami tawarkan:
 >
-> 1. **Trial gratis 30 hari** - Test dengan data real Anda
-> 2. **Demo session** - Kami tunjukkan langsung fitur yang Anda butuhkan
+> 1. **Demo session** - Kami tunjukkan langsung fitur yang Anda butuhkan
+> 2. **Trial account** - Test dengan data real Anda (5-15 tags)
 > 3. **Technical deep-dive** - Tim IT Anda bisa review architecture kami
 > 4. **Reference customer** - Kami arrange call dengan user existing
 >
-> Risiko Anda: Minimal (free trial, no commitment)
-> Potential benefit: Compliance terjaga, monitoring real-time, biaya jauh lebih rendah dari alternatif
+> Risiko Anda: Minimal (trial gratis, no commitment)
+> Potential benefit: Compliance terjaga, monitoring real-time, biaya jauh lebih rendah dari alternatif, unlimited locations
 >
-> Boleh saya arrange demo atau account trial untuk Anda?"
+> Boleh saya arrange demo session? Prosesnya cepat, hari ini WA, besok bisa demo."
 
 ---
 
-_Document Version: 1.0_
+_Document Version: 2.0_
 _For Internal Sales Team Use_
-_Last Updated: December 28, 2025_
+_Last Updated: December 29, 2025_

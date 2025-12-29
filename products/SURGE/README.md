@@ -2,7 +2,7 @@
 
 ## Business Analysis Documentation for SURGE IoT Platform
 
-**Version**: 1.0 | **Last Updated**: December 28, 2025
+**Version**: 2.0 | **Last Updated**: December 29, 2025
 
 ---
 
@@ -79,20 +79,26 @@ SURGE/
 
 ### Pricing Tiers
 
-| Plan | Price/Month | Parameters | Locations | Retention |
-|------|-------------|:----------:|:---------:|:---------:|
-| Trial | Free | 5 | 1 | 30 days |
-| Starter | $29 (Rp 464K) | 10 | 3 | 90 days |
-| Business | $99 (Rp 1.58M) | 25 | 10 | 1 year |
-| Professional | $299 (Rp 4.78M) | Unlimited | Unlimited | 3 years |
+| Plan | Price/Month | Tag Data | Locations | Logging | Retention |
+|------|-------------|:--------:|:---------:|:-------:|:---------:|
+| Trial | Free | 5 | Unlimited | 2 min | 30 days |
+| Starter | $29 (Rp 464K) | 30 | Unlimited | 1 min | 1 year |
+| Business | $99 (Rp 1.58M) | 100 | Unlimited | 1 min | 2 years |
+| Professional | $299 (Rp 4.78M) | Unlimited | Unlimited | Custom | 5 years |
+
+**Key Notes:**
+- Tag Data = jumlah parameter monitoring (pH, kWh, GPS, dll)
+- **Unlimited locations di semua tier** (unique differentiator!)
+- Trial = Private access, kontak tim SURIOTA untuk demo account
 
 ### Key Differentiators
 
-1. **KLHK Compliance** - Built-in export format for SISPEK
-2. **Bahasa Indonesia** - UI and support in Indonesian
-3. **Local Support** - WhatsApp and phone support
-4. **3 Modules in 1** - Water, Energy, Vessel integrated
-5. **Affordable** - 75% cheaper than ThingsBoard
+1. **Unlimited Locations** - All tiers include unlimited locations (unique!)
+2. **KLHK Compliance** - Built-in export format for SISPEK
+3. **Bahasa Indonesia** - UI and support in Indonesian
+4. **Local Support** - WhatsApp and phone support
+5. **3 Modules in 1** - Water, Energy, Vessel integrated
+6. **Affordable** - 70% cheaper than ThingsBoard
 
 ---
 
@@ -104,4 +110,4 @@ SURGE/
 
 ---
 
-_Last Updated: December 28, 2025_
+_Last Updated: December 29, 2025_

@@ -2,7 +2,7 @@
 
 ## Panduan Step-by-Step untuk Implementasi Customer Baru
 
-**Version**: 1.0 | **Last Updated**: December 28, 2025
+**Version**: 2.0 | **Last Updated**: December 29, 2025
 
 ---
 
@@ -93,8 +93,10 @@
 **Organization Details:**
 - Name: _________________________
 - Industry: _________________________
-- Tier: [ ] Trial [ ] Starter [ ] Business [ ] Professional
+- Tier: [ ] Trial (5 tags) [ ] Starter (30 tags) [ ] Business (100 tags) [ ] Professional (Unlimited)
 - Modules: [ ] Water [ ] Energy [ ] Vessel
+- Total Tag Data Needed: _________ tags
+- Total Locations: _________ (All tiers = Unlimited locations)
 
 ---
 
@@ -460,6 +462,24 @@ Level 4: On-site Support (Professional)
 
 ---
 
-_Document Version: 1.0_
+---
+
+# PRICING REFERENCE
+
+| Plan | Tag Data | Price/Month | Locations | Retention |
+|------|:--------:|-------------|:---------:|:---------:|
+| Trial | 5 | Free | Unlimited | 30 hari |
+| Starter | 30 | $29 (Rp 464K) | Unlimited | 1 tahun |
+| Business | 100 | $99 (Rp 1.58M) | Unlimited | 2 tahun |
+| Professional | Unlimited | $299 (Rp 4.78M) | Unlimited | 5 tahun |
+
+**Key Notes:**
+- Tag Data = jumlah parameter monitoring (pH, kWh, GPS, dll)
+- Semua tier sudah include **Unlimited locations**
+- Trial = Private access, harus kontak tim SURIOTA
+
+---
+
+_Document Version: 2.0_
 _For Internal Use_
-_Last Updated: December 28, 2025_
+_Last Updated: December 29, 2025_

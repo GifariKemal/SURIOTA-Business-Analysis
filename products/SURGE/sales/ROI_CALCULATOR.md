@@ -2,16 +2,30 @@
 
 ## Panduan Menghitung Return on Investment untuk Customer
 
-**Version**: 1.0 | **Last Updated**: December 28, 2025
+**Version**: 2.0 | **Last Updated**: December 29, 2025
+
+---
+
+# PRICING QUICK REFERENCE
+
+| Plan | Price/Month | Tag Data | Locations | Retention |
+|------|-------------|:--------:|:---------:|:---------:|
+| Trial | Free | 5 | Unlimited | 30 hari |
+| Starter | $29 (Rp 464K) | 30 | Unlimited | 1 tahun |
+| Business | $99 (Rp 1.58M) | 100 | Unlimited | 2 tahun |
+| Professional | $299 (Rp 4.78M) | Unlimited | Unlimited | 5 tahun |
+
+**Key Differentiator:** Semua tier = **Unlimited locations** (pilih tier berdasarkan jumlah tag data)
 
 ---
 
 # CARA MENGGUNAKAN KALKULATOR INI
 
 1. **Kumpulkan data** dari customer saat discovery call
-2. **Isi worksheet** di bawah dengan angka aktual
-3. **Hitung ROI** menggunakan formula yang disediakan
-4. **Presentasikan** hasil dalam proposal/meeting
+2. **Tentukan jumlah tag data** (parameter yang dimonitor)
+3. **Isi worksheet** di bawah dengan angka aktual
+4. **Hitung ROI** menggunakan formula yang disediakan
+5. **Presentasikan** hasil dalam proposal/meeting
 
 ---
 
@@ -21,15 +35,22 @@
 
 ### A. Subscription Cost
 
-| Item | Pilihan | Harga/Bulan | Harga/Tahun |
-|------|---------|-------------|-------------|
-| **Plan** | [ ] Trial (Free) | Rp 0 | Rp 0 |
-| | [ ] Starter | Rp 464.000 | Rp 5.568.000 |
-| | [ ] Business | Rp 1.584.000 | Rp 19.008.000 |
-| | [ ] Professional | Rp 4.784.000 | Rp 57.408.000 |
-| **Annual Discount** | 20% jika bayar annual | - | - |
+| Plan | Tag Data | Harga/Bulan | Harga/Tahun | Annual (15% disc) |
+|------|:--------:|-------------|-------------|-------------------|
+| Trial | 5 tags | Free | Free | - |
+| **Starter** | 30 tags | Rp 464.000 | Rp 5.568.000 | Rp 4.732.800 |
+| **Business** | 100 tags | Rp 1.584.000 | Rp 19.008.000 | Rp 16.156.800 |
+| **Professional** | Unlimited | Rp 4.784.000 | Rp 57.408.000 | Rp 48.796.800 |
+
+**Rekomendasi Tier berdasarkan Tag Data:**
+- 1-5 tags: Trial (Free, untuk testing)
+- 6-30 tags: Starter ($29/mo)
+- 31-100 tags: Business ($99/mo)
+- >100 tags: Professional ($299/mo)
 
 **Subscription Dipilih:** _____________ = Rp _________ /tahun
+
+**Catatan:** Semua tier sudah include **Unlimited locations** - tidak ada biaya tambahan per lokasi!
 
 ### B. Hardware Cost (One-time)
 
@@ -194,17 +215,17 @@ Payback Period (months) = Total Investment / (Total Savings / 12)
 
 ---
 
-# CONTOH KASUS: IPAL INDUSTRI TEKSTIL
+# CONTOH KASUS 1: IPAL INDUSTRI TEKSTIL (Starter Plan)
 
 ## Customer Profile
 
 | Aspek | Detail |
 |-------|--------|
 | Industri | Manufaktur Tekstil |
-| Kapasitas IPAL | 1,000 m3/hari |
-| Parameter monitoring | pH, COD, TSS, NH3, Flow (5 param) |
-| Outlet | 2 lokasi |
-| Staf environment | 3 orang |
+| Kapasitas IPAL | 500 m3/hari |
+| Parameter monitoring | pH, COD, TSS, NH3, Flow (5 param = 5 tags) |
+| Lokasi outlet | 2 lokasi |
+| Staf environment | 2 orang |
 
 ## Investment Calculation
 
@@ -214,24 +235,24 @@ Payback Period (months) = Total Investment / (Total Savings / 12)
 |------|:---:|-------|-------|
 | Gateway SRT-MGATE-1210 | 2 | Rp 2.700.000 | Rp 5.400.000 |
 | Sensor (existing) | 5 | Rp 0 | Rp 0 |
-| Instalasi | 1 | Rp 3.000.000 | Rp 3.000.000 |
-| **Total Hardware** | | | **Rp 8.400.000** |
+| Instalasi | 1 | Rp 2.000.000 | Rp 2.000.000 |
+| **Total Hardware** | | | **Rp 7.400.000** |
 
-### Subscription (Business Plan)
+### Subscription (Starter Plan - 30 tags, cukup untuk 5 tags di 2 lokasi)
 
 | Item | Calculation | Amount |
 |------|-------------|--------|
-| Monthly | $99 x Rp 16.000 | Rp 1.584.000 |
-| Annual (20% discount) | Rp 1.584.000 x 12 x 0.8 | Rp 15.206.400 |
+| Monthly | $29 x Rp 16.000 | Rp 464.000 |
+| Annual (15% discount) | Rp 464.000 x 12 x 0.85 | Rp 4.732.800 |
 
 ### Total Investment Year 1
 
 ```
-Hardware      : Rp  8.400.000
-Subscription  : Rp 15.206.400
-Training      : Rp  2.000.000
+Hardware      : Rp  7.400.000
+Subscription  : Rp  4.732.800
+Training      : Rp  1.500.000
 ─────────────────────────────
-TOTAL         : Rp 25.606.400
+TOTAL         : Rp 13.632.800
 ```
 
 ## Current Cost Analysis
@@ -240,39 +261,39 @@ TOTAL         : Rp 25.606.400
 
 | Aktivitas | Jam/Bulan | Rate (Rp 50.000/jam) | Cost/Bulan |
 |-----------|:---------:|----------------------|------------|
-| Sampling 4x/hari | 40 jam | Rp 50.000 | Rp 2.000.000 |
-| Logbook entry | 10 jam | Rp 50.000 | Rp 500.000 |
-| Excel input | 8 jam | Rp 50.000 | Rp 400.000 |
-| Report compilation | 80 jam | Rp 50.000 | Rp 4.000.000 |
-| Review | 16 jam | Rp 50.000 | Rp 800.000 |
-| **Total** | **154 jam** | | **Rp 7.700.000** |
+| Sampling 2x/hari | 20 jam | Rp 50.000 | Rp 1.000.000 |
+| Logbook entry | 5 jam | Rp 50.000 | Rp 250.000 |
+| Excel input | 4 jam | Rp 50.000 | Rp 200.000 |
+| Report compilation | 40 jam | Rp 50.000 | Rp 2.000.000 |
+| Review | 8 jam | Rp 50.000 | Rp 400.000 |
+| **Total** | **77 jam** | | **Rp 3.850.000** |
 
-**Annual Labor Cost:** Rp 7.700.000 x 12 = **Rp 92.400.000**
+**Annual Labor Cost:** Rp 3.850.000 x 12 = **Rp 46.200.000**
 
 ### Compliance Risk
 
 | Risk | Probability | Impact | Expected Cost/Year |
 |------|:-----------:|--------|-------------------|
-| Denda keterlambatan | 20% | Rp 25.000.000 | Rp 5.000.000 |
-| Denda data error | 10% | Rp 100.000.000 | Rp 10.000.000 |
-| **Total Risk** | | | **Rp 15.000.000** |
+| Denda keterlambatan | 15% | Rp 20.000.000 | Rp 3.000.000 |
+| Denda data error | 8% | Rp 75.000.000 | Rp 6.000.000 |
+| **Total Risk** | | | **Rp 9.000.000** |
 
 ### Incident Cost
 
 | Item | Events/Year | Cost/Event | Total |
 |------|:-----------:|------------|-------|
-| Undetected parameter breach | 2 | Rp 50.000.000 | Rp 100.000.000 |
-| Emergency IPAL repair | 1 | Rp 30.000.000 | Rp 30.000.000 |
-| **Total Incident** | | | **Rp 130.000.000** |
+| Undetected parameter breach | 1 | Rp 40.000.000 | Rp 40.000.000 |
+| Emergency IPAL repair | 0.5 | Rp 25.000.000 | Rp 12.500.000 |
+| **Total Incident** | | | **Rp 52.500.000** |
 
 ### Total Current Cost
 
 ```
-Labor         : Rp  92.400.000
-Risk          : Rp  15.000.000
-Incident      : Rp 130.000.000
+Labor         : Rp  46.200.000
+Risk          : Rp   9.000.000
+Incident      : Rp  52.500.000
 ─────────────────────────────────
-TOTAL         : Rp 237.400.000/tahun
+TOTAL         : Rp 107.700.000/tahun
 ```
 
 ## Savings with SURGE
@@ -281,39 +302,39 @@ TOTAL         : Rp 237.400.000/tahun
 
 | Aktivitas | Sebelum | Sesudah | Savings/Bulan |
 |-----------|:-------:|:-------:|---------------|
-| Sampling | 40 jam | 0 jam | Rp 2.000.000 |
-| Logbook | 10 jam | 0 jam | Rp 500.000 |
-| Excel | 8 jam | 0 jam | Rp 400.000 |
-| Report | 80 jam | 1 jam | Rp 3.950.000 |
-| Review | 16 jam | 2 jam | Rp 700.000 |
-| **Total** | | | **Rp 7.550.000** |
+| Sampling | 20 jam | 0 jam | Rp 1.000.000 |
+| Logbook | 5 jam | 0 jam | Rp 250.000 |
+| Excel | 4 jam | 0 jam | Rp 200.000 |
+| Report | 40 jam | 1 jam | Rp 1.950.000 |
+| Review | 8 jam | 1 jam | Rp 350.000 |
+| **Total** | | | **Rp 3.750.000** |
 
-**Annual Labor Savings:** Rp 7.550.000 x 12 = **Rp 90.600.000**
+**Annual Labor Savings:** Rp 3.750.000 x 12 = **Rp 45.000.000**
 
 ### Risk Reduction
 
 | Risk | Reduction | Original | Savings |
 |------|:---------:|----------|---------|
-| Denda keterlambatan | 100% | Rp 5.000.000 | Rp 5.000.000 |
-| Denda data error | 95% | Rp 10.000.000 | Rp 9.500.000 |
-| **Total** | | | **Rp 14.500.000** |
+| Denda keterlambatan | 100% | Rp 3.000.000 | Rp 3.000.000 |
+| Denda data error | 95% | Rp 6.000.000 | Rp 5.700.000 |
+| **Total** | | | **Rp 8.700.000** |
 
 ### Incident Prevention
 
 | Item | Reduction | Original | Savings |
 |------|:---------:|----------|---------|
-| Parameter breach | 90% | Rp 100.000.000 | Rp 90.000.000 |
-| Emergency repair | 60% | Rp 30.000.000 | Rp 18.000.000 |
-| **Total** | | | **Rp 108.000.000** |
+| Parameter breach | 90% | Rp 40.000.000 | Rp 36.000.000 |
+| Emergency repair | 60% | Rp 12.500.000 | Rp 7.500.000 |
+| **Total** | | | **Rp 43.500.000** |
 
 ### Total Savings
 
 ```
-Labor Savings     : Rp  90.600.000
-Risk Reduction    : Rp  14.500.000
-Incident Prevent  : Rp 108.000.000
+Labor Savings     : Rp  45.000.000
+Risk Reduction    : Rp   8.700.000
+Incident Prevent  : Rp  43.500.000
 ─────────────────────────────────────
-TOTAL SAVINGS     : Rp 213.100.000/tahun
+TOTAL SAVINGS     : Rp  97.200.000/tahun
 ```
 
 ## ROI Result
@@ -321,15 +342,15 @@ TOTAL SAVINGS     : Rp 213.100.000/tahun
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│  Investment Year 1        : Rp  25.606.400                  │
-│  Annual Savings           : Rp 213.100.000                  │
-│  Net Benefit Year 1       : Rp 187.493.600                  │
+│  Investment Year 1        : Rp  13.632.800                  │
+│  Annual Savings           : Rp  97.200.000                  │
+│  Net Benefit Year 1       : Rp  83.567.200                  │
 │                                                             │
 │  ═══════════════════════════════════════════════════════    │
 │                                                             │
-│  ROI YEAR 1:  732%                                          │
+│  ROI YEAR 1:  613%                                          │
 │                                                             │
-│  PAYBACK PERIOD: 1.4 bulan                                  │
+│  PAYBACK PERIOD: 1.7 bulan                                  │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -338,11 +359,142 @@ TOTAL SAVINGS     : Rp 213.100.000/tahun
 
 | Year | Investment | Savings | Net Benefit | Cumulative |
 |:----:|------------|---------|-------------|------------|
-| 1 | Rp 25.606.400 | Rp 213.100.000 | Rp 187.493.600 | Rp 187.493.600 |
-| 2 | Rp 15.206.400 | Rp 213.100.000 | Rp 197.893.600 | Rp 385.387.200 |
-| 3 | Rp 15.206.400 | Rp 213.100.000 | Rp 197.893.600 | Rp 583.280.800 |
+| 1 | Rp 13.632.800 | Rp 97.200.000 | Rp 83.567.200 | Rp 83.567.200 |
+| 2 | Rp 4.732.800 | Rp 97.200.000 | Rp 92.467.200 | Rp 176.034.400 |
+| 3 | Rp 4.732.800 | Rp 97.200.000 | Rp 92.467.200 | Rp 268.501.600 |
 
-**3-Year Total ROI: 1,040%**
+**3-Year Total ROI: 1,163%**
+
+---
+
+# CONTOH KASUS 2: IPAL MULTI-SITE (Business Plan)
+
+## Customer Profile
+
+| Aspek | Detail |
+|-------|--------|
+| Industri | Manufaktur Tekstil (Group) |
+| Kapasitas IPAL | 1,000 m3/hari per site |
+| Parameter monitoring | pH, COD, BOD, TSS, NH3, Flow, Temp, Debit (8 param/outlet) |
+| Lokasi outlet | **5 lokasi** (unlimited locations included!) |
+| Total Tags | 8 param x 5 lokasi = **40 tags** → Business Plan |
+| Staf environment | 5 orang (shared) |
+
+## Investment Calculation
+
+### Hardware
+
+| Item | Qty | Harga | Total |
+|------|:---:|-------|-------|
+| Gateway SRT-MGATE-1210 | 5 | Rp 2.700.000 | Rp 13.500.000 |
+| Sensor (existing) | 40 | Rp 0 | Rp 0 |
+| Instalasi | 5 | Rp 2.000.000 | Rp 10.000.000 |
+| **Total Hardware** | | | **Rp 23.500.000** |
+
+### Subscription (Business Plan - 100 tags, covers 40 tags dengan room to grow)
+
+| Item | Calculation | Amount |
+|------|-------------|--------|
+| Monthly | $99 x Rp 16.000 | Rp 1.584.000 |
+| Annual (15% discount) | Rp 1.584.000 x 12 x 0.85 | Rp 16.156.800 |
+
+**Note:** 5 lokasi = GRATIS karena unlimited locations di semua tier!
+
+### Total Investment Year 1
+
+```
+Hardware      : Rp  23.500.000
+Subscription  : Rp  16.156.800
+Training      : Rp   3.000.000
+─────────────────────────────
+TOTAL         : Rp  42.656.800
+```
+
+## Current Cost Analysis (Multi-Site)
+
+### Labor (Before SURGE)
+
+| Aktivitas | Jam/Bulan | Rate (Rp 50.000/jam) | Cost/Bulan |
+|-----------|:---------:|----------------------|------------|
+| Sampling 5 sites | 100 jam | Rp 50.000 | Rp 5.000.000 |
+| Logbook entry | 25 jam | Rp 50.000 | Rp 1.250.000 |
+| Excel input | 20 jam | Rp 50.000 | Rp 1.000.000 |
+| Report compilation | 100 jam | Rp 50.000 | Rp 5.000.000 |
+| Travel antar site | 40 jam | Rp 50.000 | Rp 2.000.000 |
+| Review | 20 jam | Rp 50.000 | Rp 1.000.000 |
+| **Total** | **305 jam** | | **Rp 15.250.000** |
+
+**Annual Labor Cost:** Rp 15.250.000 x 12 = **Rp 183.000.000**
+
+### Compliance Risk (5 sites = 5x risk)
+
+| Risk | Probability | Impact | Expected Cost/Year |
+|------|:-----------:|--------|-------------------|
+| Denda keterlambatan (any site) | 25% | Rp 25.000.000 | Rp 6.250.000 |
+| Denda data error (any site) | 15% | Rp 100.000.000 | Rp 15.000.000 |
+| **Total Risk** | | | **Rp 21.250.000** |
+
+### Incident Cost (Multi-Site)
+
+| Item | Events/Year | Cost/Event | Total |
+|------|:-----------:|------------|-------|
+| Undetected parameter breach | 3 | Rp 50.000.000 | Rp 150.000.000 |
+| Emergency repair | 2 | Rp 30.000.000 | Rp 60.000.000 |
+| **Total Incident** | | | **Rp 210.000.000** |
+
+### Total Current Cost
+
+```
+Labor         : Rp 183.000.000
+Risk          : Rp  21.250.000
+Incident      : Rp 210.000.000
+─────────────────────────────────
+TOTAL         : Rp 414.250.000/tahun
+```
+
+## Savings with SURGE
+
+### Labor Savings
+
+**Annual Labor Savings:** Rp 14.000.000 x 12 = **Rp 168.000.000**
+
+### Risk Reduction
+
+**Total Risk Savings:** **Rp 20.000.000**
+
+### Incident Prevention
+
+**Total Incident Savings:** **Rp 178.500.000**
+
+### Total Savings
+
+```
+Labor Savings     : Rp 168.000.000
+Risk Reduction    : Rp  20.000.000
+Incident Prevent  : Rp 178.500.000
+─────────────────────────────────────
+TOTAL SAVINGS     : Rp 366.500.000/tahun
+```
+
+## ROI Result
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│  Investment Year 1        : Rp  42.656.800                  │
+│  Annual Savings           : Rp 366.500.000                  │
+│  Net Benefit Year 1       : Rp 323.843.200                  │
+│                                                             │
+│  ═══════════════════════════════════════════════════════    │
+│                                                             │
+│  ROI YEAR 1:  759%                                          │
+│                                                             │
+│  PAYBACK PERIOD: 1.4 bulan                                  │
+│                                                             │
+│  BONUS: 5 lokasi tanpa biaya tambahan!                     │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -352,27 +504,51 @@ TOTAL SAVINGS     : Rp 213.100.000/tahun
 
 ### Water Analytics (IPAL/STP)
 
-| Company Size | Investment Y1 | Est. Savings | Est. ROI | Payback |
-|--------------|---------------|--------------|:--------:|:-------:|
-| Small (1 outlet, <500m3) | Rp 10-15M | Rp 50-80M | 400-600% | 2-3 bln |
-| Medium (2-3 outlet) | Rp 20-30M | Rp 150-250M | 600-800% | 1-2 bln |
-| Large (5+ outlet) | Rp 50-80M | Rp 300-500M | 500-700% | 2-3 bln |
+| Scale | Tags | Locations | Tier | Investment Y1 | Est. Savings | Est. ROI | Payback |
+|-------|:----:|:---------:|------|---------------|--------------|:--------:|:-------:|
+| Small | 5-10 | 1-2 | Starter | Rp 8-15M | Rp 50-80M | 400-600% | 2-3 bln |
+| Medium | 20-50 | 3-5 | Business | Rp 25-45M | Rp 150-250M | 500-700% | 1-2 bln |
+| Large | 80-200 | 5-10 | Business/Pro | Rp 50-100M | Rp 300-500M | 500-700% | 2-3 bln |
 
 ### Energy Mapping (Gedung/Pabrik)
 
-| Company Size | Investment Y1 | Est. Savings | Est. ROI | Payback |
-|--------------|---------------|--------------|:--------:|:-------:|
-| Small (1 gedung, <10 meter) | Rp 15-25M | Rp 40-60M | 200-300% | 4-6 bln |
-| Medium (multi-floor) | Rp 30-50M | Rp 100-150M | 250-350% | 3-5 bln |
-| Large (multi-building) | Rp 80-120M | Rp 200-350M | 200-300% | 4-6 bln |
+| Scale | Tags | Locations | Tier | Investment Y1 | Est. Savings | Est. ROI | Payback |
+|-------|:----:|:---------:|------|---------------|--------------|:--------:|:-------:|
+| Small | 10-20 | 1-2 | Starter | Rp 10-20M | Rp 40-60M | 200-300% | 4-6 bln |
+| Medium | 30-60 | 3-5 | Business | Rp 30-50M | Rp 100-150M | 250-350% | 3-5 bln |
+| Large | 100+ | 5-10 | Pro | Rp 80-120M | Rp 200-350M | 200-300% | 4-6 bln |
 
 ### Vessel Tracking (Fleet)
 
-| Fleet Size | Investment Y1 | Est. Savings | Est. ROI | Payback |
-|------------|---------------|--------------|:--------:|:-------:|
-| Small (1-5 vessels) | Rp 20-35M | Rp 60-100M | 250-350% | 3-5 bln |
-| Medium (6-15 vessels) | Rp 50-80M | Rp 150-250M | 250-350% | 3-5 bln |
-| Large (16+ vessels) | Rp 100-150M | Rp 300-500M | 250-350% | 3-5 bln |
+| Fleet Size | Tags | Vessels | Tier | Investment Y1 | Est. Savings | Est. ROI | Payback |
+|------------|:----:|:-------:|------|---------------|--------------|:--------:|:-------:|
+| Small | 15-30 | 1-5 | Starter | Rp 20-35M | Rp 60-100M | 250-350% | 3-5 bln |
+| Medium | 50-80 | 6-15 | Business | Rp 50-80M | Rp 150-250M | 250-350% | 3-5 bln |
+| Large | 100+ | 16+ | Pro | Rp 100-150M | Rp 300-500M | 250-350% | 3-5 bln |
+
+---
+
+# TIER SELECTION GUIDE
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    SURGE TIER SELECTION                             │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  Question: Berapa TOTAL parameter/tag yang perlu dimonitor?         │
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐    │
+│  │  1-5 tags    →  TRIAL (Free)    →  Testing/PoC only        │    │
+│  │  6-30 tags   →  STARTER ($29)   →  Small facility          │    │
+│  │  31-100 tags →  BUSINESS ($99)  →  Multi-site/growth       │    │
+│  │  100+ tags   →  PRO ($299)      →  Enterprise/unlimited    │    │
+│  └─────────────────────────────────────────────────────────────┘    │
+│                                                                     │
+│  INGAT: Lokasi = UNLIMITED di semua tier!                          │
+│         Pilih tier HANYA berdasarkan jumlah tag data.              │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -382,9 +558,10 @@ TOTAL SAVINGS     : Rp 213.100.000/tahun
 
 1. **Gunakan angka customer** - Jangan pakai estimasi generik
 2. **Fokus pada pain point terbesar** - Compliance risk biasanya paling impactful
-3. **Include hidden costs** - Overtime, stress, opportunity cost
-4. **Show 3-year view** - Year 1 ROI + long-term benefit
-5. **Conservative estimate** - Lebih baik under-promise, over-deliver
+3. **Highlight unlimited locations** - Ini value proposition unik SURGE
+4. **Include hidden costs** - Overtime, stress, travel, opportunity cost
+5. **Show 3-year view** - Year 1 ROI + long-term benefit
+6. **Conservative estimate** - Lebih baik under-promise, over-deliver
 
 ## Don'ts
 
@@ -407,9 +584,11 @@ Jika ROI sulit dihitung, highlight benefit kualitatif:
 | **Data-Driven Decisions** | Insight untuk improvement |
 | **Audit Ready** | Data lengkap kapanpun diperlukan |
 | **Competitive Advantage** | Diferensiasi dari kompetitor |
+| **Unlimited Scalability** | Tambah lokasi tanpa biaya tambahan |
+| **Long-term Data** | Hingga 5 tahun history (Professional) |
 
 ---
 
-_Document Version: 1.0_
+_Document Version: 2.0_
 _For Internal Sales Use_
-_Last Updated: December 28, 2025_
+_Last Updated: December 29, 2025_
