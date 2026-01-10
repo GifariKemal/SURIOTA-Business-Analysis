@@ -1,0 +1,145 @@
+{
+  "project": "SRICARE Logo Generation",
+  "version": "1.0",
+  "date": "January 2026",
+  "generator": "Gemini Image Generation",
+
+  "brand_context": {
+    "app_name": "SRICARE",
+    "tagline": "Caring hands, always near",
+    "tagline_id": "Tangan peduli, selalu dekat",
+    "industry": "Healthcare / Patient Companion / Home Care",
+    "target_market": "Indonesia (Batam)",
+    "brand_personality": [
+      "Professional",
+      "Caring",
+      "Trustworthy",
+      "Modern",
+      "Warm"
+    ]
+  },
+
+  "color_specifications": {
+    "primary": {
+      "name": "Primary Blue",
+      "hex": "#4A90D9",
+      "rgb": "74, 144, 217",
+      "usage": "Main logo color, represents trust and healthcare"
+    },
+    "secondary": {
+      "name": "Caring Green",
+      "hex": "#50C878",
+      "rgb": "80, 200, 120",
+      "usage": "Accent color, represents health and growth"
+    },
+    "accent": {
+      "name": "Warm Coral",
+      "hex": "#FF6B6B",
+      "rgb": "255, 107, 107",
+      "usage": "Optional warm accent for heart element"
+    },
+    "neutral": {
+      "name": "Dark Gray",
+      "hex": "#2D3436",
+      "rgb": "45, 52, 54",
+      "usage": "Text color for wordmark"
+    }
+  },
+
+  "prompts": {
+    "main_logo": {
+      "prompt_en": "Modern minimalist logo for healthcare app called 'SRICARE'. Design features two stylized hands gently holding or supporting each other, forming a protective caring gesture. Clean vector style, soft blue color #4A90D9 as primary. The hands should look professional yet warm and approachable. Simple geometric shapes, no gradients, flat design suitable for mobile app icon. White background, high contrast, scalable design.",
+      "prompt_id": "Logo modern minimalis untuk aplikasi kesehatan bernama 'SRICARE'. Desain menampilkan dua tangan bergaya yang saling menopang atau mendukung, membentuk gestur peduli yang protektif. Gaya vektor bersih, warna biru lembut #4A90D9 sebagai warna utama. Tangan harus terlihat profesional namun hangat dan ramah. Bentuk geometris sederhana, tanpa gradien, desain flat cocok untuk ikon aplikasi mobile. Latar putih, kontras tinggi, desain scalable."
+    },
+
+    "icon_only": {
+      "prompt_en": "Minimalist app icon for healthcare companion service. Two abstract hands forming a heart or protective circle shape. Soft blue #4A90D9 color. Clean geometric design, no text, suitable for 1024x1024 app store icon. Flat design, single color, white negative space. Professional medical feel but warm and caring.",
+      "prompt_id": "Ikon aplikasi minimalis untuk layanan pendamping kesehatan. Dua tangan abstrak membentuk bentuk hati atau lingkaran protektif. Warna biru lembut #4A90D9. Desain geometris bersih, tanpa teks, cocok untuk ikon app store 1024x1024. Desain flat, satu warna, ruang negatif putih."
+    },
+
+    "full_logo_with_text": {
+      "prompt_en": "Complete logo design for 'SRICARE' healthcare app. Icon showing two stylized caring hands on the left, wordmark 'SRICARE' on the right in modern sans-serif font (similar to Inter or Poppins Bold). Primary blue #4A90D9 for icon, dark gray #2D3436 for text. Clean horizontal layout, professional healthcare branding, minimalist style.",
+      "prompt_id": "Desain logo lengkap untuk aplikasi kesehatan 'SRICARE'. Ikon menampilkan dua tangan peduli bergaya di sebelah kiri, wordmark 'SRICARE' di sebelah kanan dengan font sans-serif modern (mirip Inter atau Poppins Bold). Biru primer #4A90D9 untuk ikon, abu-abu gelap #2D3436 untuk teks. Layout horizontal bersih, branding kesehatan profesional, gaya minimalis."
+    },
+
+    "stacked_logo": {
+      "prompt_en": "Stacked/vertical logo for 'SRICARE'. Caring hands icon on top, 'SRICARE' text below, tagline 'Caring hands, always near' at bottom in smaller text. Blue #4A90D9 icon, dark text. Centered alignment, clean spacing, suitable for splash screen or profile display.",
+      "prompt_id": "Logo bertumpuk/vertikal untuk 'SRICARE'. Ikon tangan peduli di atas, teks 'SRICARE' di bawahnya, tagline 'Tangan peduli, selalu dekat' di bagian bawah dengan teks lebih kecil. Ikon biru #4A90D9, teks gelap. Alignment tengah, spacing bersih, cocok untuk splash screen."
+    },
+
+    "alternative_concepts": {
+      "concept_1_heart_hands": {
+        "prompt_en": "Logo icon: Two hands coming together to form a heart shape. Minimalist line art style, soft blue #4A90D9. Single continuous line design. Modern healthcare app aesthetic. Clean white background.",
+        "prompt_id": "Ikon logo: Dua tangan bertemu membentuk bentuk hati. Gaya line art minimalis, biru lembut #4A90D9. Desain garis kontinu tunggal. Estetika aplikasi kesehatan modern. Latar putih bersih."
+      },
+      "concept_2_protective_hands": {
+        "prompt_en": "Logo icon: One large hand gently cradling or protecting a smaller hand or human figure silhouette. Represents caregiving and protection. Soft blue #4A90D9, minimalist flat design, suitable for app icon.",
+        "prompt_id": "Ikon logo: Satu tangan besar dengan lembut menggendong atau melindungi tangan kecil atau siluet figur manusia. Merepresentasikan caregiving dan perlindungan. Biru lembut #4A90D9, desain flat minimalis."
+      },
+      "concept_3_helping_hand": {
+        "prompt_en": "Logo icon: Single outstretched helping hand with a small plus/cross medical symbol. Clean vector style, blue #4A90D9. Represents healthcare assistance. Simple, memorable, scalable.",
+        "prompt_id": "Ikon logo: Satu tangan terulur membantu dengan simbol medis plus/silang kecil. Gaya vektor bersih, biru #4A90D9. Merepresentasikan bantuan kesehatan. Sederhana, mudah diingat, scalable."
+      },
+      "concept_4_connected_hands": {
+        "prompt_en": "Logo icon: Two hands reaching toward each other, fingertips almost touching (like Michelangelo's Creation of Adam but simplified). Modern minimalist style, blue #4A90D9. Represents connection and care.",
+        "prompt_id": "Ikon logo: Dua tangan menggapai satu sama lain, ujung jari hampir menyentuh (seperti Creation of Adam Michelangelo tapi disederhanakan). Gaya minimalis modern, biru #4A90D9."
+      }
+    },
+
+    "app_store_icon": {
+      "prompt_en": "Square app icon 1024x1024 pixels for iOS/Android app store. SRICARE healthcare companion app. Two stylized blue hands #4A90D9 forming caring gesture on white background. Rounded corners ready, high contrast, recognizable at small sizes. No text, icon only. Modern flat design.",
+      "prompt_id": "Ikon aplikasi persegi 1024x1024 piksel untuk app store iOS/Android. Aplikasi pendamping kesehatan SRICARE. Dua tangan biru bergaya #4A90D9 membentuk gestur peduli di latar putih. Siap sudut membulat, kontras tinggi, mudah dikenali di ukuran kecil. Tanpa teks, hanya ikon. Desain flat modern."
+    },
+
+    "monochrome_versions": {
+      "white_on_blue": {
+        "prompt_en": "SRICARE logo in white color on blue #4A90D9 background. Two caring hands icon with wordmark. Suitable for app header or branded materials.",
+        "prompt_id": "Logo SRICARE warna putih di latar biru #4A90D9. Ikon dua tangan peduli dengan wordmark. Cocok untuk header aplikasi atau material bermerek."
+      },
+      "all_black": {
+        "prompt_en": "SRICARE logo in solid black #2D3436. Two caring hands icon with wordmark. For single color printing or watermarks.",
+        "prompt_id": "Logo SRICARE dalam hitam solid #2D3436. Ikon dua tangan peduli dengan wordmark. Untuk cetak satu warna atau watermark."
+      }
+    }
+  },
+
+  "style_guidelines": {
+    "do": [
+      "Use clean geometric shapes",
+      "Keep design simple and memorable",
+      "Ensure scalability from 16px to large print",
+      "Maintain professional healthcare aesthetic",
+      "Use specified brand colors",
+      "Create warm, approachable feeling"
+    ],
+    "dont": [
+      "Use complex gradients",
+      "Add too many details",
+      "Use realistic hand illustrations",
+      "Include medical crosses prominently (avoid clinical feel)",
+      "Use cold or harsh colors",
+      "Make design too abstract/unrecognizable"
+    ]
+  },
+
+  "technical_requirements": {
+    "formats_needed": ["SVG", "PNG", "PDF"],
+    "sizes": {
+      "app_icon": "1024x1024px",
+      "favicon": "32x32px, 16x16px",
+      "social_media": "800x800px",
+      "horizontal_logo": "400x100px",
+      "stacked_logo": "300x400px"
+    },
+    "color_modes": ["RGB (digital)", "CMYK (print)"],
+    "background_variants": ["Transparent", "White", "Blue #4A90D9"]
+  },
+
+  "usage_examples": {
+    "app_splash_screen": "Stacked logo centered, white background",
+    "app_header": "Icon only or horizontal logo, blue or white",
+    "business_card": "Horizontal logo with tagline",
+    "social_media_profile": "Square icon version",
+    "app_store_listing": "1024x1024 icon only version"
+  }
+}
