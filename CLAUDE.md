@@ -107,6 +107,7 @@ SURIOTA-Business-Analysis/
 │   │
 │   └── SRICARE/                                 # SRICARE App (Mobile Software)
 │       ├── README.md                            # Documentation index
+│       ├── PRD.md                               # Product Requirements Document (dev specs)
 │       ├── BUSINESS_ANALYSIS.md                 # Complete business analysis
 │       ├── COMPETITOR_ANALYSIS.md               # Competitor landscape
 │       ├── PRICING_MODEL.md                     # Pricing & payment strategy
@@ -117,7 +118,9 @@ SURIOTA-Business-Analysis/
 │       ├── PITCH_DECK.md                        # Investor pitch deck
 │       ├── BRAND_GUIDELINES.md                  # Brand identity guidelines
 │       ├── LOGO_PROMPTS.json                    # AI prompts for logo generation
-│       └── APP_NAME_RECOMMENDATIONS.md          # Alternative naming options
+│       ├── APP_NAME_RECOMMENDATIONS.md          # Alternative naming options
+│       └── assets/                              # Brand assets
+│           └── sricare-logo.png                 # Official logo
 │
 ├── data/                                        # Supporting data files
 │   ├── SRT-MGATE-1210/                          # Hardware product data
@@ -483,20 +486,22 @@ SURIOTA targets the **mid-range market** with premium features:
 
 ### Documentation Files
 
-| File                          | Description                                          |
-| ----------------------------- | ---------------------------------------------------- |
-| `README.md`                   | Documentation index and overview                     |
-| `BUSINESS_ANALYSIS.md`        | Complete business analysis (market, SWOT, financial) |
-| `COMPETITOR_ANALYSIS.md`      | Competitor landscape & battlecard                    |
-| `PRICING_MODEL.md`            | Pricing tiers, payment integration, revenue model    |
-| `PRODUCT_FEATURES.md`         | Features, user stories, user flows                   |
-| `TECH_STACK.md`               | Technology architecture & recommendations            |
-| `UI_MOCKUPS.md`               | Complete UI mockups & design system                  |
-| `EXECUTIVE_SUMMARY.md`        | One-page investment summary                          |
-| `PITCH_DECK.md`               | Full investor pitch deck (13 slides)                 |
-| `BRAND_GUIDELINES.md`         | Complete brand identity guidelines                   |
-| `LOGO_PROMPTS.json`           | AI prompts for logo generation (Gemini/Midjourney)   |
-| `APP_NAME_RECOMMENDATIONS.md` | Alternative app name suggestions                     |
+| File                          | Description                                             |
+| ----------------------------- | ------------------------------------------------------- |
+| `README.md`                   | Documentation index and overview                        |
+| `PRD.md`                      | **Product Requirements Document** (comprehensive specs) |
+| `BUSINESS_ANALYSIS.md`        | Complete business analysis (market, SWOT, financial)    |
+| `COMPETITOR_ANALYSIS.md`      | Competitor landscape & battlecard                       |
+| `PRICING_MODEL.md`            | Pricing tiers, payment integration, revenue model       |
+| `PRODUCT_FEATURES.md`         | Features, user stories, user flows                      |
+| `TECH_STACK.md`               | Technology architecture & recommendations               |
+| `UI_MOCKUPS.md`               | Complete UI mockups & design system                     |
+| `EXECUTIVE_SUMMARY.md`        | One-page investment summary                             |
+| `PITCH_DECK.md`               | Full investor pitch deck (13 slides)                    |
+| `BRAND_GUIDELINES.md`         | Complete brand identity guidelines                      |
+| `LOGO_PROMPTS.json`           | AI prompts for logo generation (Gemini/Midjourney)      |
+| `APP_NAME_RECOMMENDATIONS.md` | Alternative app name suggestions                        |
+| `assets/sricare-logo.png`     | Official SRICARE logo                                   |
 
 ---
 
@@ -571,6 +576,11 @@ SURIOTA targets the **mid-range market** with premium features:
 - **MVP Timeline**: 3-4 months
 - **Focus on**: Perantau problem - caring for family from distance
 - **Batam Strategic**: 1.29M population, 70% productive age, healthcare boom (Mayapada RS)
+- **PRD.md**: Comprehensive development specs including:
+  - User personas & user stories with acceptance criteria
+  - Database schema (11 tables with SQL)
+  - API specifications & integration specs
+  - MVP scope, release criteria, launch checklist
 
 ---
 
