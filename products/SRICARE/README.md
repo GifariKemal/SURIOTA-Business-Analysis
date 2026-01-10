@@ -53,6 +53,9 @@ SRICARE/
 ├── assets/                        # Brand assets
 │   └── sricare-logo.png           # Official SRICARE logo
 │
+├── [DEVELOPMENT]
+├── PRD.md                         # Product Requirements Document (comprehensive)
+│
 ├── [INVESTOR MATERIALS]
 ├── EXECUTIVE_SUMMARY.md           # One-page investment summary
 ├── PITCH_DECK.md                  # Investor pitch deck presentation
@@ -124,6 +127,10 @@ SRICARE/
 
 ## Related Documents | Dokumen Terkait
 
+### Development
+
+- [PRD.md](./PRD.md) - **Product Requirements Document** (comprehensive specs for development)
+
 ### Investor Materials
 
 - [EXECUTIVE_SUMMARY.md](./EXECUTIVE_SUMMARY.md) - One-page investment summary (quick overview)
@@ -166,6 +173,7 @@ SRICARE/
 | 1.1     | January 2026 | Added investor materials (Pitch Deck, Executive Summary) |
 | 1.2     | January 2026 | Added UI Mockups, Brand Guidelines, Logo Prompts         |
 | 1.3     | January 2026 | Added official SRICARE logo                              |
+| 1.4     | January 2026 | Added comprehensive PRD for development                  |
 
 ---
 
