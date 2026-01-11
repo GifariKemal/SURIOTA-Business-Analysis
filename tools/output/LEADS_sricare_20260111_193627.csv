@@ -1,0 +1,33 @@
+domain,company,industry,email,first_name,last_name,position,department,linkedin,confidence,sources,suriota_products
+siloamhospitals.com,Siloam Hospitals,,jordi.augusta@siloamhospitals.com,Jordi,Augusta,Director of Performance Optimization,management,https://www.linkedin.com/in/jkomar,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,sara.piay@siloamhospitals.com,Sara,Piay,Director of Administration,management,https://www.linkedin.com/in/sara-umdi-piay-800420141,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,johannes.sianturi@siloamhospitals.com,Johannes,Sianturi,Chief Patient Experience Officer,support,https://www.linkedin.com/in/jojonael,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,ellena.wijaya@siloamhospitals.com,Dylan,Willame,Finance Director,finance,https://www.linkedin.com/in/dylan-willame-880a731b5,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,yohanes.seno@siloamhospitals.com,Yohanes,Seno,Director of Business Development,sales,https://www.linkedin.com/in/yohanes-seno-b230a1210,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,murni.ati@siloamhospitals.com,Murniati,Murniati,Accounting Manager,finance,https://www.linkedin.com/in/murniati-murniati-9b1a0449,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,erich.richardo@siloamhospitals.com,Erich,Richardo,Hospital Director,management,https://www.linkedin.com/in/erich-richardo-8225a8184,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,hans.hermawan@siloamhospitals.com,Hans,Hermawan,ICT Department Head,management,https://www.linkedin.com/in/hans-setia-hermawan-389469a4,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,irene.lie@siloamhospitals.com,Irene,Lie,Head of Human Resources,hr,https://www.linkedin.com/in/irene-lie-692a3980,94,1,SRICARE
+siloamhospitals.com,Siloam Hospitals,,kelly.tania@siloamhospitals.com,Kelly,Tania,Management Reporting Manager,management,https://www.linkedin.com/in/kelly-tania-017953132,93,1,"SURGE, SRICARE"
+mayapadahospital.com,Mayapada Hospital,,dennis.jacobus@mayapadahospital.com,Dennis,Jacobus,Associate Director,management,https://www.linkedin.com/in/dennisjac,94,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,agnes.putri@mayapadahospital.com,Agnes,Putri,Executive Assistant to CFO,operations,https://www.linkedin.com/in/agnes-felicia-putri-115577174,93,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,dini.handayani@mayapadahospital.com,Somesh,Dutta,Chief Medical Officer,health,https://www.linkedin.com/in/somesh-dutta-016a19314,93,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,imelda.sitompul@mayapadahospital.com,Imelda,Sitompul,Director of Nutrition,health,https://www.linkedin.com/in/imelda-sitompul-7a3446112,93,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,muhammad.hadi@mayapadahospital.com,Muhammad,Hadi,Medical Services Director,health,https://www.linkedin.com/in/muhammad-nur-hadi-8261b121b,92,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,benjamin.winoto@mayapadahospital.com,Benjamin,Winoto,Commercial Director,management,https://www.linkedin.com/in/benjamin-winoto-80683394,92,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,john.lee@mayapadahospital.com,John,Lee,Associate Director of Procurement,management,https://www.linkedin.com/in/john-lee-b84578129,91,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,nur.saputro@mayapadahospital.com,Nur,Saputro,Commercial Director,management,https://www.linkedin.com/in/nur-cahyo-adi-saputro-spt-702814120,91,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,rajpal.singh@mayapadahospital.com,Rajpal,Singh,Chief Nursing Officer,health,https://www.linkedin.com/in/rajpal-singh-baldev-singh-28313b88,88,1,SRICARE
+mayapadahospital.com,Mayapada Hospital,,navin.sonthalia@mayapadahospital.com,Navin,Sonthalia,CEO,executive,https://www.linkedin.com/in/navin-sonthalia,84,1,SRICARE
+awalbros.com,RS AWAL BROS,,shodiq.aminullah@awalbros.com,Shodiq,Aminullah,Assistant General Counsel,legal,https://www.linkedin.com/in/shodiqaminullah,99,1,SRICARE
+awalbros.com,RS AWAL BROS,,anissa.soeroyo@awalbros.com,Anissa,Soeroyo,Chief Human Resources Officer,hr,https://www.linkedin.com/in/anissa-soeroyo-432b85141,98,1,SRICARE
+awalbros.com,RS AWAL BROS,,aisyah.juliana@awalbros.com,Aisyah,Juliana,Head of Finance and Accounting,finance,https://www.linkedin.com/in/aisyah-juliana-3b7361244,97,1,SRICARE
+awalbros.com,RS AWAL BROS,,ditte.miranda@awalbros.com,Ditte,Miranda,Hospital Director,management,https://www.linkedin.com/in/dr-ditte-amelia-miranda-1a93411a1,93,1,SRICARE
+awalbros.com,RS AWAL BROS,,putri.yuliani@awalbros.com,Mwesigwa,Elastus,Quality Assurance Manager,operations,https://www.linkedin.com/in/mwesigwa-elastus-678808264,92,1,"SRT-MGATE-1210, SRICARE"
+awalbros.com,RS AWAL BROS,,wenny.selvia@awalbros.com,Wenny,Selvia,,,,94,4,SRICARE
+awalbros.com,RS AWAL BROS,,syahrul.hr@awalbros.com,,,,hr,,90,22,SRICARE
+awalbros.com,RS AWAL BROS,,aditya.nugraha@awalbros.com,Aditya,Nugraha,,,,89,1,SRICARE
+awalbros.com,RS AWAL BROS,,bd.pkuayn@awalbros.com,,,,,,85,3,SRICARE
+awalbros.com,RS AWAL BROS,,hrd.pekanbaru@awalbros.com,,,,hr,,81,20,SRICARE
+cppi.com,"Charles Perry Partners, Inc.",,corie.patton@cppi.com,Corie,Patton,Director of Healthcare Development,management,https://www.linkedin.com/in/corie-patton-17bb24208,97,1,SRICARE
+celestica.com,Celestica,,kwalsh@celestica.com,Kevin,Walsh,Vice President of Health Technology,it,https://www.linkedin.com/in/kev1nwalsh,94,1,"SRT-MGATE-1210, SRICARE"

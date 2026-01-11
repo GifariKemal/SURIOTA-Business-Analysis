@@ -1,0 +1,201 @@
+# ============================================
+# COMPREHENSIVE BATAM COMPANY DOMAINS
+# ============================================
+# Compiled from: SURIOTA portfolio, Kabil Industrial,
+# Panbil Industrial, BP Batam, and web research
+#
+# Target: Decision makers in Batam relevant to SURIOTA
+# Products: SRT-MGATE-1210, SURGE Platform, SRICARE
+# ============================================
+
+# ============================================
+# OIL & GAS / ENERGY (SURGE Energy, SRT-MGATE)
+# Priority: Very High - Core target
+# ============================================
+# Citra Tubindo - Oil field tubular
+citratubindo.com
+
+# SMOE Indonesia - Rig fabrication
+smoebatam.com
+
+# Medco E&P
+medcoenergi.com
+
+# Bredero Shaw - Pipe coating
+brederoshaw.com
+
+# Tenaris/Hydril - Pipes
+tenaris.com
+
+# NOV/H-Tech Oilfield
+nov.com
+
+# Dwi Sumber Arca Waja - Steel pipes
+ptdsaw.co.id
+
+# Timas Suplindo - Engineering offshore
+timas.com
+
+# Harbour Energy
+harbourenergy.com
+
+# Austin Engineering - Mining trucks
+austineng.com
+
+# Thiess Engineering - Mining rebuild
+thiess.com
+
+# Citra Tubindo Engineering
+cte.co.id
+
+# ============================================
+# MANUFACTURING - ELECTRONICS (SRT-MGATE)
+# Priority: High - IIoT Gateway target
+# ============================================
+# Panasonic Industrial Devices Batam
+panasonic.com
+
+# Infineon Batam
+infineon.com
+
+# Excelitas Batam
+excelitas.com
+
+# Sanmina Batam
+sanmina.com
+
+# Dynacast Indonesia
+dynacast.com
+
+# Foster Electric
+foster-electric.com
+
+# Sumitomo Wiring Systems
+sws.co.jp
+
+# Yokohama Industrial Products
+yiid-yokohama.com
+
+# ============================================
+# SOLAR / RENEWABLE ENERGY (SURGE Energy)
+# Priority: High - Growing sector
+# ============================================
+# IDN Solar Tech
+idnsolar.co.id
+
+# Nusa Solar Indonesia
+nusasolar.com
+
+# Enerco RPO - Green tire
+enercorpo.com
+
+# ============================================
+# WATER TREATMENT / UTILITIES (SURGE Water)
+# Priority: Very High - Core SURGE target
+# ============================================
+# Panbil Utilitas Sentosa (existing client)
+panbil.com
+
+# Tirta Kepri (existing client - PDAM)
+tirtakepri.co.id
+
+# ATB Batam - Water utility
+atbbatam.co.id
+
+# ============================================
+# INDUSTRIAL PARKS (Company Profile)
+# Priority: High - Facility managers
+# ============================================
+# Batamindo Industrial Park
+batamindo.com
+
+# Panbil Industrial Estate
+panbilindustrial.com
+
+# Kabil Industrial Estate
+kabilindustrial.com
+
+# ============================================
+# HEALTHCARE - HOSPITALS (SRICARE)
+# Priority: High - Partnership target
+# ============================================
+# RS BP Batam
+bpbatam.go.id
+
+# Siloam Hospitals
+siloamhospitals.com
+
+# Mayapada Hospital
+mayapadahospital.com
+
+# Awal Bros Hospital
+awalbros.com
+
+# ============================================
+# LOGISTICS & SHIPPING (SURGE Vessel)
+# Priority: Medium - Vessel tracking
+# ============================================
+# Sarana Citranusa Kabil - Port operator
+scnlogisticgroup.com
+
+# CPPI - Cargo handling
+cppi.com
+
+# Spliethoff - Dry cargo
+spliethoff.com
+
+# Intimas Citrasarana - Freight
+intimascitrasarana.com
+
+# ============================================
+# SHIPYARD & MARINE (SURGE Vessel)
+# Priority: High - Maritime IoT
+# ============================================
+# ASL Marine
+asl.com.sg
+
+# Marco Polo Marine
+marcopolomarine.com.sg
+
+# Pan United Marine
+pan-united.com
+
+# ============================================
+# EXISTING SURIOTA CLIENTS (Reference)
+# Priority: Low - Already clients
+# ============================================
+# PT Tri Hexa Inovasi
+trihexainovasi.com
+
+# PT Skynet Indonesia Madani
+skynetindonesia.com
+
+# PT Wika CLT
+wika.co.id
+
+# ============================================
+# GOVERNMENT & REGULATORY (Company Profile)
+# Priority: Medium
+# ============================================
+# BP Batam
+bpbatam.go.id
+
+# ============================================
+# PROPERTY & BUILDING (SURGE Energy)
+# Priority: Medium - Energy monitoring
+# ============================================
+# Ciputra
+ciputra.com
+
+# Lippo Karawaci
+lippokarawaci.co.id
+
+# ============================================
+# BANKING & FINANCE (Reference)
+# Priority: Low
+# ============================================
+# BNI
+bni.co.id
+
+# Bank Mandiri
+bankmandiri.co.id

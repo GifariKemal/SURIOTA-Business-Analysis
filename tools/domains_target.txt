@@ -1,0 +1,141 @@
+# ============================================
+# SURIOTA Target Domains for Lead Generation
+# ============================================
+# Fokus: Industrial IoT - Manufacturing, Energy, Maritime, Water
+#
+# Usage: python hunter_lead_finder.py --domains domains_target.txt
+#
+
+# ============================================
+# MANUFACTURING - FMCG
+# ============================================
+unilever.co.id
+nestle.co.id
+danone.co.id
+indofood.co.id
+mayora.co.id
+garuda-food.com
+kfrida.com
+abc.co.id
+ultrajaya.co.id
+kapal-api.com
+
+# ============================================
+# MANUFACTURING - AUTOMOTIVE
+# ============================================
+astra.co.id
+toyota.co.id
+honda-indonesia.com
+suzuki.co.id
+yamaha-motor.co.id
+daihatsu.co.id
+mitsubishi-motors.co.id
+
+# ============================================
+# MANUFACTURING - ELECTRONICS
+# ============================================
+samsung.com
+lg.com
+panasonic.com
+schneider-electric.co.id
+siemens.co.id
+abb.com
+
+# ============================================
+# ENERGY - OIL & GAS
+# ============================================
+pertamina.com
+medcoenergi.com
+pgn.co.id
+pgas.co.id
+elnusa.co.id
+rukindo.co.id
+
+# ============================================
+# ENERGY - POWER
+# ============================================
+pln.co.id
+indonesiapower.co.id
+pjb.co.id
+medcopower.com
+
+# ============================================
+# WATER - PDAM & TREATMENT
+# ============================================
+palyja.co.id
+aetra.co.id
+jakartaair.co.id
+pamjaya.co.id
+
+# ============================================
+# MARITIME & LOGISTICS
+# ============================================
+pelindo.co.id
+samudera.co.id
+meratus.co.id
+spil.co.id
+baruna.co.id
+pelni.co.id
+pertaminatrans.com
+
+# ============================================
+# LOGISTICS
+# ============================================
+jne.co.id
+sicepat.com
+anteraja.id
+jnt.co.id
+pos.co.id
+tiki.id
+
+# ============================================
+# PALM OIL / PLANTATION
+# ============================================
+sfrn.co.id
+lonsum.com
+smart-tbk.com
+astra-agro.co.id
+bfrb.com
+sipef.com
+
+# ============================================
+# BUILDING / PROPERTY
+# ============================================
+ciputra.com
+lippokarawaci.co.id
+pakuwon.com
+summarecon.com
+agung-podomoro.com
+intiland.com
+modernland.co.id
+
+# ============================================
+# MINING
+# ============================================
+ptba.co.id
+antam.com
+ffrn.co.id
+adaro.com
+banpu.co.id
+itmg.co.id
+
+# ============================================
+# BATAM SPECIFIC (Priority)
+# ============================================
+# Manufacturing di Batam
+batamindo.com
+shimano-batam.com
+sanmina.com
+jabil.com
+flextronics.com
+celestica.com
+at-s.com
+
+# Healthcare Batam
+mayapadahospital.com
+siloamhospitals.com
+rsaudibatam.com
+
+# Shipyard Batam
+batamship.com
+pan-united.com

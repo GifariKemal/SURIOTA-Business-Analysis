@@ -1,0 +1,24 @@
+# TOP 10 PRIORITY - Batam & Indonesia
+# Quota: 50 searches, use 10 = sisa 40 untuk nanti
+#
+# Target roles: Plant Manager, Operations Manager, IT Manager, Engineering
+
+# Manufacturing - EMS Batam (SRT-MGATE-1210)
+flex.com
+jabil.com
+celestica.com
+
+# Maritime/Shipyard Batam (SURGE Vessel)
+samudera.co.id
+pelindo.co.id
+
+# Energy (SURGE Energy)
+pln.co.id
+medcoenergi.com
+
+# Healthcare Batam (SRICARE)
+siloamhospitals.com
+mayapadahospital.com
+
+# Industrial Automation (SRT-MGATE-1210)
+se.com

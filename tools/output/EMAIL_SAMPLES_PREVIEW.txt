@@ -1,0 +1,222 @@
+================================================================================
+                    SURIOTA EMAIL CAMPAIGN - SAMPLE PREVIEW
+================================================================================
+Generated: 2026-01-11
+Total Emails: 545 (281 compro + 106 SRT-MGATE + 126 SURGE + 32 SRICARE)
+
+================================================================================
+SAMPLE 1: COMPANY PROFILE - Oil & Gas Executive
+================================================================================
+To: fwahyudi@citratubindo.com
+Name: Fajar Wahyudi (CEO)
+Company: PT. Citra Tubindo Tbk
+Subject: PT Surya Inovasi Prioritas - Industrial IoT Solutions
+--------------------------------------------------------------------------------
+
+Dear Fajar,
+
+I hope this email finds you well. I'm reaching out from PT Surya Inovasi
+Prioritas (SURIOTA), a technology company specializing in Industrial IoT
+Services and System Integration based in Batam, Indonesia.
+
+We noticed PT. Citra Tubindo Tbk operates in the your industry sector, and
+we believe our solutions could help optimize your operations:
+
+- **System Integration** - PLC/SCADA to Cloud connectivity
+- **Predictive Maintenance** - Vibration & temperature monitoring
+- **Remote Monitoring** - Real-time dashboards & mobile apps
+- **Energy Management** - Power monitoring & carbon footprint tracking
+
+We've successfully delivered 55+ projects across Manufacturing, Energy,
+Maritime, and Logistics sectors.
+
+Would you be open to a brief 15-minute call to discuss how we might help
+PT. Citra Tubindo Tbk?
+
+Best regards,
+SURIOTA Sales Team
+PT Surya Inovasi Prioritas
+Website: www.suriota.com
+Phone: +62 858-3567-2476
+
+
+================================================================================
+SAMPLE 2: SRT-MGATE-1210 - Manufacturing/IT Director
+================================================================================
+To: justin.moore@nov.com
+Name: Justin Moore (IT Security Director)
+Company: NOV
+Subject: SRT-MGATE-1210: Industrial Modbus-to-MQTT Gateway
+--------------------------------------------------------------------------------
+
+Dear Justin,
+
+I'm reaching out regarding our SRT-MGATE-1210, an Industrial Modbus-to-MQTT
+Gateway designed for modern IIoT connectivity.
+
+Key features that set us apart:
+- **BLE Mobile Configuration** - Setup via smartphone in 5 minutes
+- **WiFi Auto Failover** - Automatic switch from Ethernet to WiFi
+- **RTC with Battery Backup** - Accurate timestamps even after power loss
+- **Industrial Grade** - Operating temp -40C to +75C
+
+At Rp 2,700,000 (~$169), we're 20-70% more affordable than USR-IOT, BLIIoT,
+ICP DAS, and Moxa - while offering features they don't have.
+
+Given NOV's operations, this could streamline your Modbus device connectivity
+to cloud platforms like AWS, Grafana, or our SURGE Platform.
+
+Would you be interested in a technical demo or product samples?
+
+Best regards,
+SURIOTA Technical Sales
+PT Surya Inovasi Prioritas
+
+
+================================================================================
+SAMPLE 3: SURGE PLATFORM - Energy/Operations VP
+================================================================================
+To: jorge.anaya@harbourenergy.com
+Name: Jorge Anaya (Vice President of Operations)
+Company: Harbour Energy
+Subject: SURGE Platform - Industrial IoT Monitoring Solution
+--------------------------------------------------------------------------------
+
+Dear Jorge,
+
+I wanted to introduce SURGE, our Multi-Tenant SaaS Platform for industrial
+IoT monitoring.
+
+SURGE offers 3 integrated modules:
+- **Water Analytics** - pH, COD, TSS monitoring for IPAL/STP/PDAM
+- **Energy Mapping** - kWh, kVA, Power Factor for buildings/factories
+- **Vessel Tracking** - GPS, Fuel, RPM for maritime/fleet
+
+Key differentiators:
+- **Unlimited locations** in all pricing tiers (unique!)
+- **KLHK Compliance** ready for Indonesian environmental reporting
+- **70% cheaper** than ThingsBoard
+- Starting at just $29/month
+
+Given Harbour Energy's operations in your industry, I believe SURGE could
+provide significant value.
+
+Would you be open to a demo? We offer a free trial to get started.
+
+Best regards,
+SURIOTA Platform Team
+PT Surya Inovasi Prioritas
+
+
+================================================================================
+SAMPLE 4: SRICARE - Hospital Director
+================================================================================
+To: navin.sonthalia@mayapadahospital.com
+Name: Navin Sonthalia (CEO)
+Company: Mayapada Hospital
+Subject: SRICARE - Patient Companion & Home Care App Partnership
+--------------------------------------------------------------------------------
+
+Dear Navin,
+
+I'm reaching out regarding a potential partnership opportunity with SRICARE,
+our upcoming patient companion and home care mobile application.
+
+SRICARE connects patients with professional Caregivers for:
+- **Hospital Companion** - Patient accompaniment during hospitalization
+- **Dialysis Support** - Accompaniment for hemodialysis sessions
+- **Medical Escort** - Transportation to/from medical appointments
+- **Home Care** - Post-surgery and elderly care at home
+
+We're currently seeking hospital partners in Batam for our pilot launch.
+Partnership benefits include:
+- Additional service offering for your patients
+- Revenue sharing opportunity
+- Enhanced patient care experience
+
+Would Mayapada Hospital be interested in exploring a partnership discussion?
+
+Best regards,
+SURIOTA Healthcare Team
+PT Surya Inovasi Prioritas
+
+
+================================================================================
+                              FILES GENERATED
+================================================================================
+
+Campaign Files (CSV - Ready for mail merge):
+├── EMAIL_CAMPAIGN_COMPRO.csv      (281 emails) - Company Profile
+├── EMAIL_CAMPAIGN_SRT_MGATE.csv   (106 emails) - Industrial Gateway
+├── EMAIL_CAMPAIGN_SURGE.csv       (126 emails) - IoT Platform
+└── EMAIL_CAMPAIGN_SRICARE.csv     (32 emails)  - Healthcare Partnership
+
+JSON Files (Raw data):
+├── email_drafts_compro            (281 drafts)
+├── email_drafts_srt_mgate         (106 drafts)
+├── email_drafts_surge             (126 drafts)
+└── email_drafts_sricare           (32 drafts)
+
+
+================================================================================
+                           HOW TO USE THESE FILES
+================================================================================
+
+OPTION 1: Gmail Mail Merge (FREE)
+---------------------------------
+1. Install "Yet Another Mail Merge" extension for Google Sheets
+2. Upload CSV file to Google Sheets
+3. Create email template in Gmail using {{first_name}}, {{company}} variables
+4. Use YAMM to send personalized emails
+
+OPTION 2: Mailchimp Campaign
+----------------------------
+1. Go to Mailchimp > Audience > Import contacts
+2. Upload MAILCHIMP_EXPORT_*.csv
+3. Create campaign with merge tags *|FNAME|*, *|COMPANY|*
+4. Schedule and send
+
+OPTION 3: Manual Sending (Recommended for VIP contacts)
+------------------------------------------------------
+1. Open EMAIL_CAMPAIGN_*.csv in Excel
+2. Filter by company/position for priority contacts
+3. Copy-paste individual emails to Gmail/Outlook
+4. Personalize before sending
+
+OPTION 4: CRM Import
+--------------------
+1. Import CSV to HubSpot, Salesforce, or Zoho CRM
+2. Create email sequences/workflows
+3. Track opens, clicks, and replies
+
+
+================================================================================
+                         RECOMMENDED SENDING ORDER
+================================================================================
+
+Week 1: C-Level & VP (High Priority)
+- Filter: CEO, COO, CFO, VP, Director
+- Personalize each email
+- Send from company email
+
+Week 2: Managers & Department Heads
+- Filter: Manager, Head of, Lead
+- Use mail merge for efficiency
+
+Week 3: Follow-up & Remaining
+- Re-send to non-responders (modify subject)
+- Send to remaining contacts
+
+
+================================================================================
+                              BEST PRACTICES
+================================================================================
+
+1. DON'T send all emails at once (spam risk)
+2. Limit to 50-100 emails per day per account
+3. Personalize subject line for VIP contacts
+4. Include unsubscribe option (legal requirement)
+5. Track responses in spreadsheet
+6. Follow up non-responders after 3-5 days
+
+================================================================================

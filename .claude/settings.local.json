@@ -14,11 +14,24 @@
       "Bash(powershell:*)",
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nrefactor: Reorganize folder structure and update to v6.1\n\nChanges:\n- Create docs/ folder for documentation files\n- Create data/ folder for BOM and calculation files\n- Update pricing: Non-PoE Rp 2.7M \\(40%\\), PoE Rp 3.1M \\(41%\\)\n- Add supplier/distributor strategy with MAP policy\n- Add Section 8 \\(Supplier & Distributor\\) to Roasting guide\n- Add supplier FAQ to FAQ template\n- Update all documents to reflect new pricing\n\nFile structure:\n- docs/SRT-MGATE-1210_BUSINESS_ANALYSIS.md \\(v6.1\\)\n- docs/FAQ_TEMPLATE.md \\(v1.1\\)\n- docs/ROASTING_AND_RESPONSE.md \\(v1.1\\)\n- data/BOM files and calculations\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "mcp__filesystem__read_text_file",
+      "Bash(file:*)",
+      "Bash(wc -l \"C:\\\\Users\\\\Administrator\\\\Music\\\\surge-energy-map-frontend\\\\src\"/**/*.tsx)",
+      "mcp__filesystem__list_directory",
+      "mcp__firecrawl__firecrawl_search",
+      "WebSearch",
+      "Bash(mkdir:*)",
+      "mcp__filesystem__move_file",
+      "Bash(git commit:*)",
+      "mcp__firecrawl__firecrawl_scrape",
+      "Bash(python hunter_lead_finder.py:*)",
+      "Bash(python apollo_lead_finder.py:*)",
+      "Bash(python lead_manager.py:*)",
+      "mcp__firecrawl__firecrawl_map",
+      "Bash(python merge_leads.py:*)",
+      "Bash(python export_email_campaign.py:*)"
     ]
   },
-  "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": [
-    "shadcn"
-  ]
+  "enableAllProjectMcpServers": true
 }

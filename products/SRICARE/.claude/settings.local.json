@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__list_directory",
+      "Bash(npx prettier --version)",
+      "Bash(npx prettier:*)",
+      "Bash(git add:*)",
+      "Bash(git restore:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs\\(SRICARE\\): add comprehensive business analysis documentation\n\n- Business analysis, competitor analysis, pricing model\n- App name recommendations and brand guidelines\n- Tech stack, product features, UI mockups\n- Executive summary and pitch deck\n- Logo prompts for AI generation\n- All files formatted with Prettier\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git commit:*)"
+    ]
+  },
+  "disabledMcpjsonServers": [
+    "shadcn"
+  ]
+}

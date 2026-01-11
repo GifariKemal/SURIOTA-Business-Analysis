@@ -1,0 +1,146 @@
+# ============================================
+# BATAM PRIORITY TARGETS - SURIOTA
+# ============================================
+# Fokus: Decision makers di Batam yang relevan dengan:
+# - Company Profile SURIOTA (IIoT Services)
+# - SRT-MGATE-1210 (Industrial Gateway)
+# - SURGE Platform (Water, Energy, Vessel)
+# - SRICARE (Healthcare/Patient Companion)
+#
+# Total: ~40 domains (hemat quota)
+
+# ============================================
+# MANUFACTURING - ELECTRONICS (SRT-MGATE-1210)
+# Priority: Plant Manager, Engineering Manager, IT Manager
+# ============================================
+# Flex (formerly Flextronics) - Batam
+flex.com
+
+# Jabil - EMS di Batam
+jabil.com
+
+# Celestica - EMS di Batam
+celestica.com
+
+# Sanmina - EMS di Batam
+sanmina.com
+
+# Venture Corporation - Singapore/Batam
+venture.com.sg
+
+# Infineon - Semiconductor
+infineon.com
+
+# Panasonic Manufacturing
+panasonic.com
+
+# Schneider Electric - Industrial Automation
+se.com
+
+# Siemens - Industrial Automation
+siemens.com
+
+# ============================================
+# SHIPYARD & MARITIME (SURGE Vessel Tracking)
+# Priority: Fleet Manager, Operations Manager, IT Head
+# ============================================
+# ASL Marine - Shipyard Batam
+asl.com.sg
+
+# Marco Polo Marine
+marcopolomarine.com.sg
+
+# Miclyn Express Offshore
+miclynexpressoffshore.com
+
+# Sealink Marine
+sealink.com.sg
+
+# Samudra Shipping
+samudera.co.id
+
+# Meratus Line
+meratus.co.id
+
+# SPIL - Salam Pacific Indonesia Lines
+spil.co.id
+
+# Pelindo - Port Authority
+pelindo.co.id
+
+# ============================================
+# ENERGY & UTILITIES (SURGE Energy/Water)
+# Priority: Operations Manager, Facility Manager
+# ============================================
+# PLN - State Electricity
+pln.co.id
+
+# PGN - Gas
+pgn.co.id
+
+# Pertamina - Oil & Gas
+pertamina.com
+
+# Medco Energy
+medcoenergi.com
+
+# ============================================
+# HEALTHCARE (SRICARE)
+# Priority: Hospital Director, Marketing, IT
+# ============================================
+# Mayapada Hospital Batam
+mayapadahospital.com
+
+# Siloam Hospitals
+siloamhospitals.com
+
+# RS Awal Bros
+awalbros.com
+
+# Prodia Lab
+prodia.co.id
+
+# ============================================
+# INDUSTRIAL PARKS & PROPERTY (All Products)
+# Priority: GM, Facility Manager, Tenant Relations
+# ============================================
+# Batamindo Industrial Park
+batamindo.com
+
+# Ciputra Development
+ciputra.com
+
+# Lippo Karawaci
+lippokarawaci.co.id
+
+# Pakuwon
+pakuwon.com
+
+# ============================================
+# LOGISTICS (SRT-MGATE-1210)
+# Priority: Operations Manager, IT Manager
+# ============================================
+# DHL
+dhl.com
+
+# FedEx
+fedex.com
+
+# JNE
+jne.co.id
+
+# SiCepat
+sicepat.com
+
+# ============================================
+# PALM OIL / PLANTATION (SURGE)
+# Priority: Estate Manager, Sustainability Manager
+# ============================================
+# Wilmar - Sinar Mas Agro
+wilmar-international.com
+
+# Asian Agri
+asianagri.com
+
+# Musim Mas
+musimmas.com

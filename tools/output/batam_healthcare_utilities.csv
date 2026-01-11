@@ -1,0 +1,89 @@
+domain,company,industry,email,first_name,last_name,position,department,linkedin,confidence,sources
+siloamhospitals.com,Siloam Hospitals,,jordi.augusta@siloamhospitals.com,Jordi,Augusta,Director of Performance Optimization,management,https://www.linkedin.com/in/jkomar,94,1
+siloamhospitals.com,Siloam Hospitals,,sara.piay@siloamhospitals.com,Sara,Piay,Director of Administration,management,https://www.linkedin.com/in/sara-umdi-piay-800420141,94,1
+siloamhospitals.com,Siloam Hospitals,,johannes.sianturi@siloamhospitals.com,Johannes,Sianturi,Chief Patient Experience Officer,support,https://www.linkedin.com/in/jojonael,94,1
+siloamhospitals.com,Siloam Hospitals,,ellena.wijaya@siloamhospitals.com,Dylan,Willame,Finance Director,finance,https://www.linkedin.com/in/dylan-willame-880a731b5,94,1
+siloamhospitals.com,Siloam Hospitals,,yohanes.seno@siloamhospitals.com,Yohanes,Seno,Director of Business Development,sales,https://www.linkedin.com/in/yohanes-seno-b230a1210,94,1
+siloamhospitals.com,Siloam Hospitals,,murni.ati@siloamhospitals.com,Murniati,Murniati,Accounting Manager,finance,https://www.linkedin.com/in/murniati-murniati-9b1a0449,94,1
+siloamhospitals.com,Siloam Hospitals,,erich.richardo@siloamhospitals.com,Erich,Richardo,Hospital Director,management,https://www.linkedin.com/in/erich-richardo-8225a8184,94,1
+siloamhospitals.com,Siloam Hospitals,,hans.hermawan@siloamhospitals.com,Hans,Hermawan,ICT Department Head,management,https://www.linkedin.com/in/hans-setia-hermawan-389469a4,94,1
+siloamhospitals.com,Siloam Hospitals,,irene.lie@siloamhospitals.com,Irene,Lie,Head of Human Resources,hr,https://www.linkedin.com/in/irene-lie-692a3980,94,1
+siloamhospitals.com,Siloam Hospitals,,kelly.tania@siloamhospitals.com,Kelly,Tania,Management Reporting Manager,management,https://www.linkedin.com/in/kelly-tania-017953132,93,1
+mayapadahospital.com,Mayapada Hospital,,dennis.jacobus@mayapadahospital.com,Dennis,Jacobus,Associate Director,management,https://www.linkedin.com/in/dennisjac,94,1
+mayapadahospital.com,Mayapada Hospital,,agnes.putri@mayapadahospital.com,Agnes,Putri,Executive Assistant to CFO,operations,https://www.linkedin.com/in/agnes-felicia-putri-115577174,93,1
+mayapadahospital.com,Mayapada Hospital,,dini.handayani@mayapadahospital.com,Somesh,Dutta,Chief Medical Officer,health,https://www.linkedin.com/in/somesh-dutta-016a19314,93,1
+mayapadahospital.com,Mayapada Hospital,,imelda.sitompul@mayapadahospital.com,Imelda,Sitompul,Director of Nutrition,health,https://www.linkedin.com/in/imelda-sitompul-7a3446112,93,1
+mayapadahospital.com,Mayapada Hospital,,muhammad.hadi@mayapadahospital.com,Muhammad,Hadi,Medical Services Director,health,https://www.linkedin.com/in/muhammad-nur-hadi-8261b121b,92,1
+mayapadahospital.com,Mayapada Hospital,,benjamin.winoto@mayapadahospital.com,Benjamin,Winoto,Commercial Director,management,https://www.linkedin.com/in/benjamin-winoto-80683394,92,1
+mayapadahospital.com,Mayapada Hospital,,john.lee@mayapadahospital.com,John,Lee,Associate Director of Procurement,management,https://www.linkedin.com/in/john-lee-b84578129,91,1
+mayapadahospital.com,Mayapada Hospital,,nur.saputro@mayapadahospital.com,Nur,Saputro,Commercial Director,management,https://www.linkedin.com/in/nur-cahyo-adi-saputro-spt-702814120,91,1
+mayapadahospital.com,Mayapada Hospital,,rajpal.singh@mayapadahospital.com,Rajpal,Singh,Chief Nursing Officer,health,https://www.linkedin.com/in/rajpal-singh-baldev-singh-28313b88,88,1
+mayapadahospital.com,Mayapada Hospital,,navin.sonthalia@mayapadahospital.com,Navin,Sonthalia,CEO,executive,https://www.linkedin.com/in/navin-sonthalia,84,1
+awalbros.com,RS AWAL BROS,,shodiq.aminullah@awalbros.com,Shodiq,Aminullah,Assistant General Counsel,legal,https://www.linkedin.com/in/shodiqaminullah,99,1
+awalbros.com,RS AWAL BROS,,anissa.soeroyo@awalbros.com,Anissa,Soeroyo,Chief Human Resources Officer,hr,https://www.linkedin.com/in/anissa-soeroyo-432b85141,98,1
+awalbros.com,RS AWAL BROS,,aisyah.juliana@awalbros.com,Aisyah,Juliana,Head of Finance and Accounting,finance,https://www.linkedin.com/in/aisyah-juliana-3b7361244,97,1
+awalbros.com,RS AWAL BROS,,ditte.miranda@awalbros.com,Ditte,Miranda,Hospital Director,management,https://www.linkedin.com/in/dr-ditte-amelia-miranda-1a93411a1,93,1
+awalbros.com,RS AWAL BROS,,putri.yuliani@awalbros.com,Mwesigwa,Elastus,Quality Assurance Manager,operations,https://www.linkedin.com/in/mwesigwa-elastus-678808264,92,1
+awalbros.com,RS AWAL BROS,,wenny.selvia@awalbros.com,Wenny,Selvia,,,,94,4
+awalbros.com,RS AWAL BROS,,syahrul.hr@awalbros.com,,,,hr,,90,22
+awalbros.com,RS AWAL BROS,,aditya.nugraha@awalbros.com,Aditya,Nugraha,,,,89,1
+awalbros.com,RS AWAL BROS,,bd.pkuayn@awalbros.com,,,,,,85,3
+awalbros.com,RS AWAL BROS,,hrd.pekanbaru@awalbros.com,,,,hr,,81,20
+cppi.com,"Charles Perry Partners, Inc.",,lee.pouncey@cppi.com,Lee,Pouncey,Project Director,management,https://www.linkedin.com/in/lee-pouncey-2703b64b,99,1
+cppi.com,"Charles Perry Partners, Inc.",,ralph.pressley@cppi.com,Ralph,Pressley,Chief Financial Officer,finance,https://www.linkedin.com/in/ralph-pressley-53a33952,99,2
+cppi.com,"Charles Perry Partners, Inc.",,vinnie.moreschi@cppi.com,Vinnie,Moreschi,Executive Vice President,executive,https://www.linkedin.com/in/vinnie-moreschi-484b3448,99,2
+cppi.com,"Charles Perry Partners, Inc.",,glen.beck@cppi.com,Glen,Beck,Vice President of Field Operations,operations,https://www.linkedin.com/in/glen-beck-88ba0677,98,1
+cppi.com,"Charles Perry Partners, Inc.",,kim.humphries@cppi.com,Kim,Humphries,Human Resources Director,hr,https://www.linkedin.com/in/kim-humphries-8a1459179,98,1
+cppi.com,"Charles Perry Partners, Inc.",,maggie.briggs@cppi.com,Maggie,Briggs,Business Development Director,sales,https://www.linkedin.com/in/margaret-e-briggs,98,1
+cppi.com,"Charles Perry Partners, Inc.",,rich.pritt@cppi.com,Rich,Pritt,Project Director,management,https://www.linkedin.com/in/rich-pritt-98809357,98,1
+cppi.com,"Charles Perry Partners, Inc.",,trent.swartz@cppi.com,Trent,Swartz,Vice President,executive,https://www.linkedin.com/in/trent-swartz-4ba24a18,98,2
+cppi.com,"Charles Perry Partners, Inc.",,jason.morgan@cppi.com,Jason,Morgan,Vice President,executive,https://www.linkedin.com/in/jason-morgan-8a0b414,98,5
+cppi.com,"Charles Perry Partners, Inc.",,corie.patton@cppi.com,Corie,Patton,Director of Healthcare Development,management,https://www.linkedin.com/in/corie-patton-17bb24208,97,1
+spliethoff.com,Spliethoff,,t.gimbel@spliethoff.com,Thomas,Gimbel,Deputy Director of Chartering,management,https://www.linkedin.com/in/thomas-gimbel-041187112,99,1
+spliethoff.com,Spliethoff,,r.sardinha@spliethoff.com,Raquel,Sardinha,Owner Representative,support,https://www.linkedin.com/in/raquel-sardinha-78b3a861,99,2
+spliethoff.com,Spliethoff,,i.sovershaeva@spliethoff.com,Irina,Sovershaeva,Regional Director,executive,https://www.linkedin.com/in/irina-sovershaeva-40722314,99,3
+spliethoff.com,Spliethoff,,h.kielen@spliethoff.com,Hilbert,Kielen,Chief Engineer,executive,https://www.linkedin.com/in/hilbert-kielen-44350023,98,1
+spliethoff.com,Spliethoff,,i.bras@spliethoff.com,Ingmar,Bras,Director of Administration,management,https://www.linkedin.com/in/ingmar-l-h-bras-070265214,98,1
+spliethoff.com,Spliethoff,,j.ferwerda@spliethoff.com,Jasper,Ferwerda,Chief Officer,executive,https://www.linkedin.com/in/jasper-ferwerda-13908b37,98,1
+spliethoff.com,Spliethoff,,p.schweinsbergen@spliethoff.com,Patrick,Schweinsbergen,Director,management,https://www.linkedin.com/in/patrick-schweinsbergen-369b2811,97,1
+spliethoff.com,Spliethoff,,p.flohil@spliethoff.com,Pieter,Flohil,Director,management,https://www.linkedin.com/in/pieter-flohil-76161419,97,2
+spliethoff.com,Spliethoff,,a.akker@spliethoff.com,Albert,Akker,Deputy Director,executive,https://www.linkedin.com/in/albert-akker-33a53544,97,2
+spliethoff.com,Spliethoff,,t.zuijderduin@spliethoff.com,Thomas,Zuijderduin,,,https://www.linkedin.com/in/thomas-zuijderduin-05074084,99,1
+asl.com.sg,,,tsx@asl.com.sg,,,,,,75,1
+asl.com.sg,,,lgs@asl.com.sg,,,,,,10,2
+marcopolomarine.com.sg,Marco Polo Marine,,darren.pang@marcopolomarine.com.sg,Darren,Pang,Operations Executive,operations,https://www.linkedin.com/in/darren-pang-4832b8309,93,1
+marcopolomarine.com.sg,Marco Polo Marine,,ryan.quek@marcopolomarine.com.sg,Ryan,Quek,Assistant General Manager,management,https://www.linkedin.com/in/ryan-quek-662b7069,94,3
+marcopolomarine.com.sg,Marco Polo Marine,,desmond.cai@marcopolomarine.com.sg,Desmond,Cai,HSE Manager,management,https://www.linkedin.com/in/desmond-cai-9b9573267,92,1
+marcopolomarine.com.sg,Marco Polo Marine,,ks.chan@marcopolomarine.com.sg,,,,,,87,20
+marcopolomarine.com.sg,Marco Polo Marine,,asiong@marcopolomarine.com.sg,,,,,,80,1
+marcopolomarine.com.sg,Marco Polo Marine,,info@marcopolomarine.com.sg,,,,support,,78,6
+ciputra.com,Ir. Ciputra,,andri.utomo@ciputra.com,Andri,Utomo,Pharmacy Director,management,https://www.linkedin.com/in/andri-utomo-027b0a106,93,1
+ciputra.com,Ir. Ciputra,,elwin.liman@ciputra.com,Elwin,Liman,Business Development Manager,sales,https://www.linkedin.com/in/elwin-liman-25448b153,87,1
+ciputra.com,Ir. Ciputra,,reza.farid@ciputra.com,Reza,Farid,Landscape Inspector,design,https://www.linkedin.com/in/reza-muhamad-farid-580258285,94,1
+ciputra.com,Ir. Ciputra,,ricardo.valentino@ciputra.com,Ricardo,Valentino,IT Manager,it,https://www.linkedin.com/in/rvfaah,94,1
+ciputra.com,Ir. Ciputra,,elisa.santoso@ciputra.com,Elisa,Santoso,Human Resources Administrator,hr,https://www.linkedin.com/in/elisa-kristinawati-santoso-8b364215b,94,1
+ciputra.com,Ir. Ciputra,,indra.kusuma@ciputra.com,Indra,Kusuma,Business Development Manager,sales,https://www.linkedin.com/in/indra-kusuma-9685a839,94,1
+ciputra.com,Ir. Ciputra,,jonathan.martin@ciputra.com,Jonathan,Martin,Marketing Communications Manager,communication,https://www.linkedin.com/in/jonathan-martin-064199132,94,1
+ciputra.com,Ir. Ciputra,,putra.nugraha@ciputra.com,Putra,Nugraha,Supervisor,,https://www.linkedin.com/in/putra-surya-nugraha-7b6544173,93,1
+ciputra.com,Ir. Ciputra,,ahmad.fauzi@ciputra.com,Ahmad,Fauzi,Infrastructure Inspector,,https://www.linkedin.com/in/ahmad-fahrul-fauzi-ab5a181ba,93,1
+ciputra.com,Ir. Ciputra,,lukas.setiawan@ciputra.com,Lukas,Setiawan,Senior Business Development Manager,sales,https://www.linkedin.com/in/lukas-setiawan-3078a913b,93,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,vincentius.oesman@lippokarawaci.co.id,Vincentius,Oesman,Director of Industrial Relations,communication,https://www.linkedin.com/in/vincentius-oesman-s-h-m-h-a5b69510b,99,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,imam.kusuma@lippokarawaci.co.id,Imam,Kusuma,Sales Director,sales,https://www.linkedin.com/in/imam-kusuma-800a72b,99,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,john.r@lippokarawaci.co.id,John,Riady,Chief Executive Officer,executive,https://www.linkedin.com/in/john-riady-630888,98,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,melianda.tanarong@lippokarawaci.co.id,Melianda,Tanarong,Sales Director,sales,https://www.linkedin.com/in/melianda-tanarong-79b51351,98,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,theo.teja@lippokarawaci.co.id,Theo,Teja,Corporate Development Manager,management,https://www.linkedin.com/in/theoteja,97,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,christian.wicaksana@lippokarawaci.co.id,Christian,Wicaksana,Business Development Manager,sales,https://www.linkedin.com/in/christian-asri-wicaksana-189b7a11a,97,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,fritz.atmodjo@lippokarawaci.co.id,Fritz,Atmodjo,Project Manager,management,https://www.linkedin.com/in/fritz-atmodjo-a44627151,97,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,randi.prathama@lippokarawaci.co.id,Randi,Prathama,Head of Investor Relations,communication,https://www.linkedin.com/in/dr-randi-bayu-prathama,97,6
+lippokarawaci.co.id,PT. Lippo Karawaci,,daniel.cristiawan@lippokarawaci.co.id,Daniel,Cristiawan,Inventory Manager,management,https://www.linkedin.com/in/daniel-cristiawan-38b82a142,96,1
+lippokarawaci.co.id,PT. Lippo Karawaci,,jonathan.lian@lippokarawaci.co.id,Jonathan,Lian,Head of Corporate Development,management,https://www.linkedin.com/in/jonathan-lian-94b44038,96,2
+wika.co.id,PT Wijaya Karya,,adam@wika.co.id,Cristiano,Ira Ira,,,https://www.linkedin.com/in/cristiano-adao-ira-ira-3aa5ba2bb,94,1
+wika.co.id,PT Wijaya Karya,,anisa@wika.co.id,Anisa,Anggraeni,Executive Assistant,operations,https://www.linkedin.com/in/anisa-ayu-anggraeni-94aa8b128,94,1
+wika.co.id,PT Wijaya Karya,,tomi@wika.co.id,Tomi,Hilmy,Chief Engineer,executive,https://www.linkedin.com/in/tomi-hilmy-5a52b837,94,1
+wika.co.id,PT Wijaya Karya,,alfa@wika.co.id,Alfa,Hadiyansyah,Finance and Administration Manager,finance,https://www.linkedin.com/in/alfa-hadiyansyah-49057a50,94,1
+wika.co.id,PT Wijaya Karya,,eko@wika.co.id,Eko,Rachmat,Marketing Director,marketing,https://www.linkedin.com/in/eko-prasetyadi-rachmat-a6a5ba237,94,1
+wika.co.id,PT Wijaya Karya,,deden@wika.co.id,Deden,Indriawan,Client Partner,support,https://www.linkedin.com/in/deden-indriawan-7682b2169,94,1
+wika.co.id,PT Wijaya Karya,,agung@wika.co.id,Agung,Waskito,Director of Operations,executive,https://www.linkedin.com/in/agung-budi-waskito-303039168,94,1
+wika.co.id,PT Wijaya Karya,,sarah@wika.co.id,Sarah,Gloria,Marketing Manager,marketing,https://www.linkedin.com/in/sarah-gloria-5830a1124,93,1
+wika.co.id,PT Wijaya Karya,,koko@wika.co.id,Koko,Heru,Commercial Director,management,https://www.linkedin.com/in/koko-heru-138b75bb,93,1
+wika.co.id,PT Wijaya Karya,,adib@wika.co.id,Adib,Setyawan,Operations Manager,operations,https://www.linkedin.com/in/adib-setyawan-a4995579,93,1
