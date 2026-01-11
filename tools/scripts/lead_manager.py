@@ -24,9 +24,14 @@ from pathlib import Path
 from typing import List, Dict
 import re
 
-# Output directory
-OUTPUT_DIR = Path(__file__).parent / "output"
-OUTPUT_DIR.mkdir(exist_ok=True)
+# Output directories
+TOOLS_DIR = Path(__file__).parent.parent
+OUTPUT_DIR = TOOLS_DIR / "output"
+LEADS_DIR = OUTPUT_DIR / "leads"
+CAMPAIGNS_DIR = OUTPUT_DIR / "campaigns"
+DRAFTS_DIR = OUTPUT_DIR / "drafts"
+for d in [OUTPUT_DIR, LEADS_DIR, CAMPAIGNS_DIR, DRAFTS_DIR]:
+    d.mkdir(parents=True, exist_ok=True)
 
 # ============================================
 # SURIOTA PRODUCT MAPPING

@@ -9,7 +9,11 @@ import csv
 from pathlib import Path
 from datetime import datetime
 
-OUTPUT_DIR = Path(__file__).parent / "output"
+# Output directories
+TOOLS_DIR = Path(__file__).parent.parent
+OUTPUT_DIR = TOOLS_DIR / "output"
+DRAFTS_DIR = OUTPUT_DIR / "drafts"
+CAMPAIGNS_DIR = OUTPUT_DIR / "campaigns"
 
 def export_to_csv(json_file, csv_file):
     """Convert email drafts JSON to CSV format."""
@@ -74,10 +78,10 @@ def main():
     ]
 
     for json_name, prefix in categories:
-        json_file = OUTPUT_DIR / json_name
+        json_file = DRAFTS_DIR / json_name
         if json_file.exists():
-            csv_file = OUTPUT_DIR / f"{prefix}_{timestamp}.csv"
-            sample_file = OUTPUT_DIR / f"{prefix}_SAMPLES_{timestamp}.txt"
+            csv_file = CAMPAIGNS_DIR / f"{prefix}_{timestamp}.csv"
+            sample_file = CAMPAIGNS_DIR / f"{prefix}_SAMPLES_{timestamp}.txt"
 
             export_to_csv(json_file, csv_file)
             create_sample_emails(json_file, sample_file)

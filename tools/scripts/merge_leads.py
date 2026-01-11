@@ -10,7 +10,10 @@ from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 
-OUTPUT_DIR = Path(__file__).parent / "output"
+# Output directories
+TOOLS_DIR = Path(__file__).parent.parent
+OUTPUT_DIR = TOOLS_DIR / "output"
+LEADS_DIR = OUTPUT_DIR / "leads"
 
 def merge_csv_files(file_patterns):
     """Merge multiple CSV files into one."""

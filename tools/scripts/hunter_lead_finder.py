@@ -29,8 +29,8 @@ HUNTER_API_KEY = "aa99858276e102460135bcbe5685a9e9bb42b0e4"
 BASE_URL = "https://api.hunter.io/v2"
 
 # Output directory
-OUTPUT_DIR = Path(__file__).parent / "output"
-OUTPUT_DIR.mkdir(exist_ok=True)
+OUTPUT_DIR = Path(__file__).parent.parent / "output" / "leads"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # ============================================

@@ -30,7 +30,8 @@
       "Bash(python lead_manager.py:*)",
       "mcp__firecrawl__firecrawl_map",
       "Bash(python merge_leads.py:*)",
-      "Bash(python export_email_campaign.py:*)"
+      "Bash(python export_email_campaign.py:*)",
+      "Bash(python scripts/convert_to_excel.py:*)"
     ]
   },
   "enableAllProjectMcpServers": true
