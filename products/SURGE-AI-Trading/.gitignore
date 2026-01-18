@@ -29,3 +29,23 @@ nul
 
 # Logs
 *.log
+ml/outputs/*.log
+
+# ML Models and Data
+ml/models/*.pkl
+ml/models/*.pth
+ml/cache/
+ml/outputs/
+
+# RAG E-books (copyright)
+data/ebooks/*.pdf
+data/ebooks/*.epub
+data/ebooks/*.txt
+!data/ebooks/README.md
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.temp

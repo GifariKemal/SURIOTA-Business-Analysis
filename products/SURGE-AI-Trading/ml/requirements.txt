@@ -1,0 +1,51 @@
+# ============================================================
+# SURGE-AI Trading - ML Service Requirements
+# ============================================================
+
+# === Core ML Frameworks ===
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# === Deep Learning ===
+torch>=2.1.0
+# Note: For CPU-only, use: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# === XGBoost ===
+xgboost>=2.0.0
+
+# === Kalman Filter ===
+filterpy>=1.4.5
+
+# === Vector Database (Milvus) ===
+pymilvus>=2.3.0
+
+# === Database ===
+psycopg2-binary>=2.9.9
+redis>=5.0.0
+
+# === Scheduler ===
+APScheduler>=3.10.4
+
+# === NLP / Sentiment ===
+transformers>=4.36.0
+sentence-transformers>=2.2.0  # For RAG embeddings
+# FinBERT for financial sentiment
+# torch is already listed above
+
+# === Data Fetching ===
+requests>=2.31.0
+aiohttp>=3.9.0
+feedparser>=6.0.10  # RSS feed parsing
+
+# === Binance API ===
+python-binance>=1.0.19
+
+# === Utilities ===
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+
+# === Optional: Jupyter for Development ===
+# jupyter>=1.0.0
+# matplotlib>=3.8.0
+# seaborn>=0.13.0
