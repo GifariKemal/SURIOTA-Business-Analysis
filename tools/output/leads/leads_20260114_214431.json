@@ -1,0 +1,28 @@
+[
+  {
+    "domain": "sinarunggul.com",
+    "company": "Sinarunggul",
+    "industry": "",
+    "email": "info@sinarunggul.com",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": "support",
+    "linkedin": null,
+    "confidence": 99,
+    "sources": 2
+  },
+  {
+    "domain": "sinarunggul.com",
+    "company": "Sinarunggul",
+    "industry": "",
+    "email": "accounting@sinarunggul.com",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": "finance",
+    "linkedin": null,
+    "confidence": 75,
+    "sources": 1
+  }
+]

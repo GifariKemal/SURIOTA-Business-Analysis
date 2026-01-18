@@ -1,0 +1,54 @@
+[
+  {
+    "domain": "momentum.co.id",
+    "company": "PT. Momentum Otomasi Indonesia",
+    "industry": "",
+    "email": "rizki@momentum.co.id",
+    "first_name": "Rizki",
+    "last_name": "Ramadhan",
+    "position": "Sales Engineer",
+    "department": "sales",
+    "linkedin": "https://www.linkedin.com/in/rizkisyahrul",
+    "confidence": 99,
+    "sources": 1
+  },
+  {
+    "domain": "momentum.co.id",
+    "company": "PT. Momentum Otomasi Indonesia",
+    "industry": "",
+    "email": "asdhi@momentum.co.id",
+    "first_name": "Asdhi",
+    "last_name": "Hidayatullah",
+    "position": ".NET Developer",
+    "department": "it",
+    "linkedin": "https://www.linkedin.com/in/asdhi-maulana-hidayatullah-662289174",
+    "confidence": 98,
+    "sources": 1
+  },
+  {
+    "domain": "momentum.co.id",
+    "company": "PT. Momentum Otomasi Indonesia",
+    "industry": "",
+    "email": "support@momentum.co.id",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": "support",
+    "linkedin": null,
+    "confidence": 78,
+    "sources": 6
+  },
+  {
+    "domain": "momentum.co.id",
+    "company": "PT. Momentum Otomasi Indonesia",
+    "industry": "",
+    "email": "dedent@momentum.co.id",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": null,
+    "linkedin": null,
+    "confidence": 75,
+    "sources": 1
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "domain": "mitrakaryasarana.com",
+    "company": "PT Mitra Karya Sarana",
+    "industry": "",
+    "email": "alfis.vernando@mitrakaryasarana.com",
+    "first_name": "Alfis",
+    "last_name": "Vernando",
+    "position": "Chief Marketing Officer",
+    "department": "marketing",
+    "linkedin": "https://www.linkedin.com/in/alfis-vernando-04aabb228",
+    "confidence": 99,
+    "sources": 1
+  },
+  {
+    "domain": "mitrakaryasarana.com",
+    "company": "PT Mitra Karya Sarana",
+    "industry": "",
+    "email": "riska.oktaviani@mitrakaryasarana.com",
+    "first_name": "Riska",
+    "last_name": "Oktaviani",
+    "position": "Sales Engineer",
+    "department": "sales",
+    "linkedin": "https://www.linkedin.com/in/riskaoktviap",
+    "confidence": 98,
+    "sources": 1
+  },
+  {
+    "domain": "mitrakaryasarana.com",
+    "company": "PT Mitra Karya Sarana",
+    "industry": "",
+    "email": "roganda.berasa@mitrakaryasarana.com",
+    "first_name": "Roganda",
+    "last_name": "Berasa",
+    "position": "Mechanical Drafter",
+    "department": null,
+    "linkedin": "https://www.linkedin.com/in/roganda-berasa-781437242",
+    "confidence": 97,
+    "sources": 1
+  },
+  {
+    "domain": "mitrakaryasarana.com",
+    "company": "PT Mitra Karya Sarana",
+    "industry": "",
+    "email": "herliana@mitrakaryasarana.com",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": null,
+    "linkedin": null,
+    "confidence": 87,
+    "sources": 8
+  },
+  {
+    "domain": "mitrakaryasarana.com",
+    "company": "PT Mitra Karya Sarana",
+    "industry": "",
+    "email": "sales@mitrakaryasarana.com",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": "sales",
+    "linkedin": null,
+    "confidence": 81,
+    "sources": 5
+  },
+  {
+    "domain": "mitrakaryasarana.com",
+    "company": "PT Mitra Karya Sarana",
+    "industry": "",
+    "email": "recruitment@mitrakaryasarana.com",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": null,
+    "linkedin": null,
+    "confidence": 75,
+    "sources": 1
+  }
+]

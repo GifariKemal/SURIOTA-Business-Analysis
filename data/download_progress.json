@@ -1,0 +1,80 @@
+{
+  "version": "2.0",
+  "created_at": "2026-01-16T22:39:33.641874",
+  "updated_at": "2026-01-16T22:41:29.989213",
+  "current_phase": 0,
+  "phases": {
+    "0": {
+      "status": "partial",
+      "updated_at": "2026-01-16T22:41:29.989206",
+      "details": {
+        "pending_years": [
+          2023,
+          2022,
+          2021,
+          2020,
+          2019
+        ]
+      }
+    }
+  },
+  "downloads": {
+    "BTCUSDT_1h_2024": {
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "year": 2024,
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "total_candles": 8784,
+      "file_size_bytes": 779871,
+      "status": "completed",
+      "error_message": null,
+      "started_at": "2026-01-16T22:39:33.645295",
+      "completed_at": "2026-01-16T22:39:46.065393"
+    },
+    "BTCUSDT_1h_2023": {
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "year": 2023,
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-31",
+      "total_candles": 8759,
+      "file_size_bytes": 774992,
+      "status": "completed",
+      "error_message": null,
+      "started_at": "2026-01-16T22:40:55.052995",
+      "completed_at": "2026-01-16T22:41:06.996969"
+    },
+    "BTCUSDT_1d_2024": {
+      "symbol": "BTCUSDT",
+      "timeframe": "1d",
+      "year": 2024,
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "total_candles": 366,
+      "file_size_bytes": 38342,
+      "status": "completed",
+      "error_message": null,
+      "started_at": "2026-01-16T22:41:19.275242",
+      "completed_at": "2026-01-16T22:41:29.988329"
+    }
+  },
+  "years": {
+    "2024": {
+      "status": "in_progress",
+      "started_at": "2026-01-16T22:39:33.645304"
+    },
+    "2023": {
+      "status": "in_progress",
+      "started_at": "2026-01-16T22:40:55.053011"
+    }
+  },
+  "statistics": {
+    "total_symbols": 0,
+    "total_timeframes": 0,
+    "total_candles": 17909,
+    "total_bytes": 1593205,
+    "completed_downloads": 3,
+    "failed_downloads": 0
+  }
+}

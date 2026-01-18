@@ -1,0 +1,28 @@
+[
+  {
+    "domain": "epcm-industries.com",
+    "company": "EPC",
+    "industry": "",
+    "email": "sales@epcm-industries.com",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": null,
+    "linkedin": null,
+    "confidence": 99,
+    "sources": 2
+  },
+  {
+    "domain": "epcm-industries.com",
+    "company": "EPC",
+    "industry": "",
+    "email": "wahyu@epcm-industries.com",
+    "first_name": null,
+    "last_name": null,
+    "position": null,
+    "department": null,
+    "linkedin": null,
+    "confidence": 84,
+    "sources": 4
+  }
+]

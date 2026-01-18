@@ -9,6 +9,7 @@ This repository contains business analysis documentation for **PT Surya Inovasi 
    - **SRT-MGATE-1210** - Industrial Modbus-to-MQTT Gateway (Hardware)
    - **SURGE Platform** - Multi-tenant SaaS IoT Monitoring (Software)
    - **SRICARE** - Patient Companion & Home Care Mobile App (Software)
+   - **SURGE-AI Trading** - Internal AI Crypto Trading System (Internal Tool)
 3. **Services** - (Coming soon) Analysis for SURIOTA service offerings
 
 ---
@@ -105,22 +106,39 @@ SURIOTA-Business-Analysis/
 │   │       ├── INTEGRATION_GUIDE.md             # Device & system integration
 │   │       └── API_QUICK_START.md               # API quick start guide
 │   │
-│   └── SRICARE/                                 # SRICARE App (Mobile Software)
+│   ├── SRICARE/                                 # SRICARE App (Mobile Software)
+│   │   ├── README.md                            # Documentation index
+│   │   ├── PRD.md                               # Product Requirements Document (dev specs)
+│   │   ├── BUSINESS_ANALYSIS.md                 # Complete business analysis
+│   │   ├── COMPETITOR_ANALYSIS.md               # Competitor landscape
+│   │   ├── PRICING_MODEL.md                     # Pricing & payment strategy
+│   │   ├── PRODUCT_FEATURES.md                  # Feature breakdown
+│   │   ├── TECH_STACK.md                        # Technology architecture
+│   │   ├── UI_MOCKUPS.md                        # UI/UX mockups & design system
+│   │   ├── EXECUTIVE_SUMMARY.md                 # One-page investment summary
+│   │   ├── PITCH_DECK.md                        # Investor pitch deck
+│   │   ├── BRAND_GUIDELINES.md                  # Brand identity guidelines
+│   │   ├── LOGO_PROMPTS.json                    # AI prompts for logo generation
+│   │   ├── APP_NAME_RECOMMENDATIONS.md          # Alternative naming options
+│   │   └── assets/                              # Brand assets
+│   │       └── sricare-logo.png                 # Official logo
+│   │
+│   └── SURGE-AI-Trading/                        # SURGE-AI Trading (Internal Tool)
 │       ├── README.md                            # Documentation index
-│       ├── PRD.md                               # Product Requirements Document (dev specs)
 │       ├── BUSINESS_ANALYSIS.md                 # Complete business analysis
-│       ├── COMPETITOR_ANALYSIS.md               # Competitor landscape
-│       ├── PRICING_MODEL.md                     # Pricing & payment strategy
-│       ├── PRODUCT_FEATURES.md                  # Feature breakdown
-│       ├── TECH_STACK.md                        # Technology architecture
-│       ├── UI_MOCKUPS.md                        # UI/UX mockups & design system
-│       ├── EXECUTIVE_SUMMARY.md                 # One-page investment summary
-│       ├── PITCH_DECK.md                        # Investor pitch deck
-│       ├── BRAND_GUIDELINES.md                  # Brand identity guidelines
-│       ├── LOGO_PROMPTS.json                    # AI prompts for logo generation
-│       ├── APP_NAME_RECOMMENDATIONS.md          # Alternative naming options
-│       └── assets/                              # Brand assets
-│           └── sricare-logo.png                 # Official logo
+│       │
+│       ├── technical/                           # Technical documentation
+│       │   ├── ARCHITECTURE.md                  # System architecture
+│       │   ├── DATABASE_SCHEMA.md               # TimescaleDB + Milvus schemas
+│       │   ├── API_SPECIFICATION.md             # Internal API endpoints
+│       │   └── DEPLOYMENT_GUIDE.md              # Docker deployment guide
+│       │
+│       ├── operations/                          # Operations documentation
+│       │   ├── RUNBOOK.md                       # Operations runbook
+│       │   └── RISK_MANAGEMENT.md               # Risk rules & kill switch
+│       │
+│       └── references/                          # Research references
+│           └── RESEARCH_REFERENCES.md           # Web research sources
 │
 ├── data/                                        # Supporting data files
 │   ├── SRT-MGATE-1210/                          # Hardware product data
@@ -505,6 +523,128 @@ SURIOTA targets the **mid-range market** with premium features:
 
 ---
 
+## Product: SURGE-AI Trading (products/SURGE-AI-Trading/)
+
+### Product Overview
+
+**SURGE-AI Trading** is an internal AI-powered cryptocurrency trading system for SURIOTA. It uses Machine Learning, Kalman Filters, and Sentiment Analysis to generate automated trading signals.
+
+**Status:** Internal Tool (Not for sale)
+
+### Product Specifications
+
+| Aspect | Detail |
+|--------|--------|
+| **Product Name** | SURGE-AI Trading |
+| **Type** | Internal Tool |
+| **Purpose** | Generate trading profits automatically |
+| **Target Asset** | Cryptocurrency (Binance only) |
+| **Initial Capital** | < $10,000 |
+| **Business Model** | Trading Profits Only |
+
+### Architecture Overview
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                 SURGE-AI TRADING ARCHITECTURE                   │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  DATA SOURCES                                                   │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐       │
+│  │ Binance  │  │Santiment │  │LunarCrush│  │ Finnhub  │       │
+│  │(WebSocket)│ │(News/Sent)│ │ (Social) │  │(News API)│       │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘       │
+│       │             │             │             │               │
+│       v             v             v             v               │
+│  ┌────────────────────────────────────────────────────────┐   │
+│  │              SIGNAL GENERATION LAYER                    │   │
+│  │  ┌────────────┐  ┌────────────┐  ┌────────────┐        │   │
+│  │  │ KALMAN 1   │  │ KALMAN 2   │  │ KALMAN 3   │        │   │
+│  │  │ (ML: 50%)  │  │ (DB: 30%)  │  │(News: 20%) │        │   │
+│  │  │XGBoost+LSTM│  │Vector Match│  │FinGPT-mini │        │   │
+│  │  └─────┬──────┘  └─────┬──────┘  └─────┬──────┘        │   │
+│  │        └───────────────┼───────────────┘               │   │
+│  │                        v                                │   │
+│  │           ┌────────────────────────┐                   │   │
+│  │           │ FINAL KALMAN FILTER    │                   │   │
+│  │           │ (Ensemble Fusion)      │                   │   │
+│  │           └───────────┬────────────┘                   │   │
+│  └───────────────────────┼────────────────────────────────┘   │
+│                          v                                     │
+│  ┌────────────────────────────────────────────────────────┐   │
+│  │              RISK MANAGEMENT LAYER                      │   │
+│  │  - Half Kelly Position Sizing (12.5% max)              │   │
+│  │  - Max Drawdown: 15% kill switch                       │   │
+│  │  - Daily Loss Limit: 3%                                │   │
+│  │  - Min Confidence: 70%                                 │   │
+│  └────────────────────────────────────────────────────────┘   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Technology Stack
+
+| Category | Technology | Purpose |
+|----------|------------|---------|
+| **Language** | Python 3.11+ | ML ecosystem |
+| **Web Framework** | FastAPI | Async API |
+| **Time-Series DB** | TimescaleDB | OHLCV data |
+| **Vector DB** | Milvus | Pattern matching |
+| **Cache** | Redis | Real-time buffer |
+| **ML Framework** | XGBoost, PyTorch | Ensemble models |
+| **NLP/LLM** | FinGPT-mini | Sentiment analysis |
+| **Kalman** | filterpy | Signal fusion |
+
+### Signal Generation System
+
+| Component | Weight | Technology | Input |
+|-----------|:------:|------------|-------|
+| **Kalman 1 (ML)** | 50% | XGBoost + LSTM | MACD, RSI, EMA |
+| **Kalman 2 (DB)** | 30% | Milvus Vector | 6-year patterns |
+| **Kalman 3 (News)** | 20% | FinGPT-mini | News sentiment |
+
+**Final Signal Formula:**
+```
+final_signal = 0.50 * kalman_ml + 0.30 * kalman_db + 0.20 * kalman_news
+```
+
+### Risk Management Rules
+
+| Rule | Value | Action |
+|------|-------|--------|
+| Max Position Size | 12.5% | Half Kelly |
+| Max Total Exposure | 50% | Position limit |
+| Max Drawdown | 15% | Kill switch |
+| Daily Loss Limit | 3% | Stop trading |
+| Min Confidence | 70% | Don't trade |
+
+### Infrastructure Cost
+
+| Component | Provider | Monthly Cost |
+|-----------|----------|--------------|
+| VPS Server | DigitalOcean | $48-60 |
+| Domain + SSL | Cloudflare | $0 |
+| Santiment API | Free tier | $0 |
+| LunarCrush API | Free tier | $0 |
+| Telegram Bot | Free | $0 |
+| **Total** | | **~$50-65/month** |
+
+### Documentation Files
+
+| File | Description |
+|------|-------------|
+| `README.md` | Documentation index and overview |
+| `BUSINESS_ANALYSIS.md` | Complete business analysis |
+| `technical/ARCHITECTURE.md` | System architecture |
+| `technical/DATABASE_SCHEMA.md` | TimescaleDB + Milvus schemas |
+| `technical/API_SPECIFICATION.md` | Internal API endpoints |
+| `technical/DEPLOYMENT_GUIDE.md` | Docker deployment guide |
+| `operations/RUNBOOK.md` | Operations runbook |
+| `operations/RISK_MANAGEMENT.md` | Risk rules & kill switch |
+| `references/RESEARCH_REFERENCES.md` | Web research sources |
+
+---
+
 ## Notes for AI Assistant
 
 ### Company Profile - Page 3 (About Us)
@@ -581,6 +721,40 @@ SURIOTA targets the **mid-range market** with premium features:
   - Database schema (11 tables with SQL)
   - API specifications & integration specs
   - MVP scope, release criteria, launch checklist
+
+### Product (SURGE-AI Trading)
+
+- **Product Type**: Internal AI crypto trading system (NOT for sale)
+- **Target Market**: Internal SURIOTA use only
+- **Purpose**: Generate trading profits automatically
+- **Trading Asset**: Cryptocurrency only (Binance)
+- **Initial Capital**: < $10,000 (conservative/testing)
+- **Architecture**: 6-layer system (Data Ingestion, Processing, Signal, Risk, Execution, Monitoring)
+- **Signal Generation**:
+  - Kalman Filter 1 (ML): 50% weight - XGBoost + LSTM for technical analysis
+  - Kalman Filter 2 (DB): 30% weight - Milvus vector matching for historical patterns
+  - Kalman Filter 3 (News): 20% weight - FinGPT-mini for sentiment analysis
+  - Final Kalman Filter: Ensemble fusion of all three signals
+- **Technology Stack**:
+  - Language: Python 3.11+
+  - Framework: FastAPI (async)
+  - Databases: TimescaleDB (time-series), Milvus (vectors), Redis (cache)
+  - ML: XGBoost, PyTorch (LSTM), filterpy (Kalman)
+  - LLM: FinGPT-mini (open-source, $300 fine-tuning vs $3M BloombergGPT)
+- **Risk Management**:
+  - Position sizing: Half Kelly Criterion (12.5% max per trade)
+  - Max drawdown: 15% (kill switch trigger)
+  - Daily loss limit: 3% (stop trading)
+  - Min confidence: 70% (don't trade below)
+  - Max total exposure: 50% of capital
+- **External APIs** (all free tiers):
+  - Binance: Market data + trading
+  - Santiment: On-chain + social data
+  - LunarCrush: Social sentiment
+  - Finnhub: News feed
+- **Infrastructure**: ~$50-65/month (DigitalOcean VPS)
+- **Key differentiator**: Adaptive Kalman Filter fusion of ML + Historical Patterns + Sentiment
+- **Original concept by**: Kemal (from Ide AI Analytics.jpeg)
 
 ---
 

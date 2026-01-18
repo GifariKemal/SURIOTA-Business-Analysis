@@ -1,0 +1,5 @@
+domain,company,industry,email,first_name,last_name,position,department,linkedin,confidence,sources
+momentum.co.id,PT. Momentum Otomasi Indonesia,,rizki@momentum.co.id,Rizki,Ramadhan,Sales Engineer,sales,https://www.linkedin.com/in/rizkisyahrul,99,1
+momentum.co.id,PT. Momentum Otomasi Indonesia,,asdhi@momentum.co.id,Asdhi,Hidayatullah,.NET Developer,it,https://www.linkedin.com/in/asdhi-maulana-hidayatullah-662289174,98,1
+momentum.co.id,PT. Momentum Otomasi Indonesia,,support@momentum.co.id,,,,support,,78,6
+momentum.co.id,PT. Momentum Otomasi Indonesia,,dedent@momentum.co.id,,,,,,75,1
